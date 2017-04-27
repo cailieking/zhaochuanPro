@@ -1,0 +1,70 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap-table
+*= require_self
+*/
+
+.table input[type=checkbox] {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.datatable-search-input {
+	min-width:280px;
+	font-weight: normal;
+	float: right;
+	margin-right: 10px;
+}
+
+.datatable-search-btn {
+	float: right;
+}
+
+.datatable_operation {
+	margin: 0 5px;
+}
+
+.datatable_operation:FIRST-CHILD {
+	margin: 0px;
+}
+
+.fixed-table-toolbar .bars, .fixed-table-toolbar .columns, .fixed-table-toolbar .search {
+    margin-left: 10px;
+}
+
+.columns-right button {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+	border-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+
+.columns-right button:hover, .columns-right button:focus  {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2) !important;
+	border-color: rgba(0, 0, 0, 0) !important;
+    color: #25678B !important;
+}
+
+.fixed-table-container {
+	 border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.fixed-table-container tbody td{
+	word-break:keep-all;
+	white-space:nowrap;
+}
+
+.fixed-table-container tbody .selected td {
+    background-color: rgba(0,0,0,0);
+} {
+	background-color: rgba(0,0,0,0) !important;
+}

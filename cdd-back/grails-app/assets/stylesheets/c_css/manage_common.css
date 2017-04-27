@@ -1,0 +1,45 @@
+.win_manage_bg{width:1200px;min-height:600px; clear:both;}
+.win_manage_layout{margin-left:10px;background:#fff;float:left;}
+.win_manage_layout .wm_top{height:48px;background:#e4e4e4;clear:both;border:1px #666666 solid;border-radius:5px 5px 0 0;position:relative;bottom:-1px;}
+.win_manage_layout .wm_top .caption{margin-left:15px;height:48px;line-height:48px;font-size:18px;float:left;}
+.win_manage_layout .wm_top .btnL{margin-top:12px;margin-left:10px;padding-left:5px;padding-right:5px;float:left;}
+.win_manage_layout .wm_top .btnR{margin-top:12px;margin-right:10px;padding-left:5px;padding-right:5px;float:right;}
+.win_manage_layout .wm_top .wm_top_searchbox{margin-top:12px;width:200px;height:28px;border:1px #000 solid;border-radius:0;border-color:#666666 !important;border-right:0;float:right;}
+.win_manage_layout .wm_content{min-height:500px;background:#fff;border:1px #d7d7d7 solid;border-top:0; border-radius:0 0 5px 5px;float:left;}
+.win_manage_layout.wm_left{width:358px;}
+.wm_left .wm_top .caption{color:#333333;}
+.wm_left .wm_content{width:358px;}
+.win_manage_layout.wm_right{width:768px;}
+.wm_right .wm_top .caption{color:#2a9de9;}
+.wm_right .wm_content{width:768px;}
+.wm_right .wm_content .r_caption{padding-left:9px;height:34px;line-height:34px;clear:both;}
+.wm_right .wm_content .r_caption .r_ar{padding:0 15px;}
+.wm_right .wm_content .r_content{margin-left:9px;width:748px;min-height:445px;border:1px #d7d7d7 solid;float:left;}
+.wm_right .r_controlLine{height:54px;clear:both;}
+.wm_right .r_controlLine .r_name{padding-left:20px;height:54px;line-height:54px;font-size:16px;color:#2a9de9;float:left;}
+.wm_right .r_controlLine .btnR{margin-right:20px;margin-top:14px;padding-left:5px;padding-right:5px;float:right;}
+
+.wm_table{width:706px;margin-left:20px;border:1px #d7d7d7 solid;text-align:center;font-size:13px;line-height:28px;float:left;}
+.wm_table th{text-align:center;}
+.wm_table tr{border-bottom:1px #d7d7d7 solid;}
+.wm_table tr:last-child{border:0;}
+.wm_table tr:nth-child(even){background:#f0f0f0;}
+.wm_table td{border-right:1px #d7d7d7 solid;}
+.wm_table td:last-child{border:0;}
+.wm_table th{border-right:1px #d7d7d7 solid;}
+.wm_table th:last-child{border:0;}
+.wm_table input[type="checkbox"]{width:16px;height:16px;}
+.wm_table a{padding:0 5px;}
+.wm_table a:hover{color:#000;}
+
+.wm_left_tree_root{width:100%;float:left;}
+.zTree *{font-size:14px !important;font-family:"Microsoft YaHei" !important;}
+
+.wEditMod .editList>li{padding:4px 0;min-height:24px;}
+.wEditMod .editList .wLabel{width:120px;height:24px;line-height:24px;text-align:right;float:left;}
+.wEditMod .editList .wLabel .imp{width:20px;height:24px;line-height:24px;text-align:center;color:#f00;float:right;}
+.wEditMod .editList .box1{width:200px;height:24px;border:1px #000 solid;border-radius:0;float:left;}
+.wEditMod .editList .select1{width:200px;height:24px;border:1px #000 solid;border-radius:0;float:left;}
+.wEditMod .editList .area1{resize:none;width:200px;height:48px;border:1px #000 solid;border-radius:0;float:left;}
+.wEditMod .editList .bottomBtns{margin:6px 0 0 120px;}
+.wEditMod .editList .bottomBtns .btnMod1{margin-right:10px;}

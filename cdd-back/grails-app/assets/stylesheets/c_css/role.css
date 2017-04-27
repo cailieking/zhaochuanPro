@@ -1,0 +1,14 @@
+.addRoleDlg,
+.editRoleDlg{width:380px;height:190px;}
+
+.wm_table{width:338px;margin:9px 0 0 9px;position:relative;}
+.rolename{cursor:pointer;cursor:hand;color:#2a9de9;}
+.wm_role_page{padding:9px 9px 0 0;height:30px;clear:both;text-align:right;}
+
+.roleTipsBg{padding:5px;width:180px;line-height:18px;color:#2a9de9;background:#fecc6a;border:1px #999999 solid;border-radius:5px;position:absolute;display:none;}
+
+.roleListBg{padding:2px;clear:both;display:none;}
+.roleList{padding-left:34px !important;min-height:28px;max-width:400px;border:1px #666666 solid;float:left;}
+.roleList li{min-width:62px;margin-right:1em;height:24px;float:left;}
+.roleList li input[type="checkbox"]{margin-top:5px;width:14px;height:14px;float:left;}
+.roleList li .ckLabel{height:24px;line-height:24px;float:left;}

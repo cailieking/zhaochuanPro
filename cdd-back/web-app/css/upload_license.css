@@ -1,0 +1,101 @@
+
+.company-list-left,.company-list-right{
+ pading:0px;
+ margin: 0px;
+ float:left;
+ width:49%;
+ font-size: 14px;
+font-family:Microsoft YaHei;
+ margin-right: 5px;
+}
+.company-info-list{
+ text-align: right;
+ padding-right: 2px;
+ padding: 10px;
+}
+.company-list-right>div{
+ margin: 12px;
+}
+.zoom-up-image-left,.zoom-up-image-right{
+ position: absolute;
+ bottom: 195px;
+ width:48%;
+ height:400px;
+ background: #f2f2f2;
+ visibility: hidden;
+ z-index: 2000;
+ //cursor: pointer;
+ border: 1px solid red;
+}
+
+.zoom-up-image-left{
+ left:8px;
+ top:5px;
+}
+.delete-btn{
+ position: absolute;
+ left: 95%;
+ top: 10px;
+ width: 25px;
+ height:25px;
+ background: url("delete-btn.jpg");
+ z-index: 3000;
+ cursor: pointer;
+
+}
+.zoom-up-image-right{
+ left:49%;
+ top: -8px;
+}
+
+.img-list,.img-list>li,.img-list>li img{
+ float: left;}
+.img-list{
+ margin-top:180px;
+}
+.img-list>li{
+ margin-right: 50px;
+}
+.img-list>li img{
+ width:150px;
+ height:100px;
+}
+.verify-content-zone{
+ float: left;
+ height: 150px;
+ position: relative;
+ margin-left: 35%;
+ list-style-type: none;
+}
+.audit-opinion{
+ font-size: 12px;
+ font-weight: bold;
+ }
+.audit-advice{
+ width: 300px;
+ height: 100px;
+ max-width: 300px;
+ max-height: 100px;
+ resize: none;
+}
+#verify-fail,#verify-passed,#back-button{
+ border-radius: 3px;
+ height: 32px;
+ border: none;
+ margin-right: 35px;
+ color:#fff;
+ width: 90px;
+ cursor: pointer;
+ font-family: Microsoft YaHei ;
+}
+#verify-fail{
+ background: #7a72E9;
+ margin-left: 55px;
+}
+#verify-passed{
+ background: #1B9AF7;
+}
+#back-button{
+ background: #FF4351;
+
+}

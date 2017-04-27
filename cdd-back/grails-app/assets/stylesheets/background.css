@@ -1,0 +1,39 @@
+body {
+	font-family: 'Microsoft YaHei', Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-animation: animation1 1s linear;
+    -moz-animation: animation1 1s linear;
+    -o-animation: animation1 1s linear;
+    animation: animation1 1s linear;
+}
+ 
+@-webkit-keyframes animation1{
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+ 
+@-moz-keyframes animation1{
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+ 
+@-o-keyframes animation1{
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+ 
+@keyframes animation1{
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+
+.bg-img-num1{background: url('bg/bg_num1.jpg') left top repeat-x #082648;}    
+.bg-img-num2{background: url('bg/bg_num2.jpg') left top repeat-x #2D3245;}
+.bg-img-num3{background: url('bg/bg_num3.jpg') left top repeat-x #000000;}
+.bg-img-num4{background: url('bg/bg_num4.png') center center no-repeat #2C5C82;}
+.bg-img-num5{background: url('bg/bg_num5.png') center center no-repeat #548CB2;}
+.bg-img-num6{background: url('bg/bg_num6.png') center top no-repeat #629065;}
+.bg-img-num7{background: url('bg/bg_num7.jpg') center top no-repeat fixed #000000;}
+.bg-img-num8{background: url('bg/bg_num8.jpg') center top no-repeat fixed #000000;}
+.bg-img-num9{background: url('bg/bg_num9.jpg') center top no-repeat fixed #000000;}
+.bg-img-num10{background: url('bg/bg_num10.jpg') center top no-repeat fixed #000000;}
+

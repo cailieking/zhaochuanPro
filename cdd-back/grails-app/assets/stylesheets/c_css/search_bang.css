@@ -1,0 +1,12 @@
+.search_bang_tishi1{position:absolute;left:700px;top:-30px;width:355px;}
+.search_bang_List{width:1098px;float:left;}
+.search_bang_List>li{width:270px;height:440px;float:left;}
+.search_bang_List .bTime{width:246px;height:28px;line-height:28px;text-indent:10px;color:#2a9de9;float:left;}
+.search_bang_List .bTitle{width:246px;height:28px;color:#000;background:#e4e4e4;border-radius:4px;float:left;}
+.search_bang_List .bTitle>div{height:28px;line-height:28px;text-align:center;float:left;}
+.search_bang_List .wIndex{width:64px;}
+.search_bang_List .wName{width:178px;}
+.search_bang_List .search_bang{margin-top:6px;width:244px;border:1px #2a9de9 dotted;border-radius:4px;float:left;}
+.search_bang_List .search_bang>li{width:100%;height:34px;border-bottom:1px #2a9de9 solid;float:left;}
+.search_bang_List .search_bang>li>div{height:34px;line-height:34px;text-align:center;float:left;}
+.search_bang_List .search_bang>li:last-child{border-bottom:none;}

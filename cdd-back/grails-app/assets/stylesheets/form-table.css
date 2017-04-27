@@ -1,0 +1,83 @@
+.only-tr{
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-color: rgba(0,0,0,0.2);
+	width:940px;
+}
+.only-tr td{
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-color:  rgba(0,0,0,0.2);
+	width:300px;
+	
+}
+.form-table td {
+	padding: 10px;
+}
+.form-input {
+	width:350px;
+}
+/* .form-table td {
+	
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-color: rgba(0,0,0,0.2);
+} */
+
+/* .form-table {
+	rules:none;
+	width: 100%;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-color: rgba(0,0,0,0.2);
+} */
+
+.form-table {
+	padding:65px
+	
+}
+
+.form-title {
+	width: 150px;
+}
+
+.form-title > .required:after {
+	content: '*';
+	color: red;
+	font-size: 18px;
+	position: relative;
+    top: 3px;
+}
+
+.form-input input[type^="text"], .form-input textarea {
+	width: 80%;
+	font-size: 14px;
+	height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+}
+
+.form-input textarea {
+	height: 100px;
+	width : 400px
+	
+}
+
+.form-input input[type^="radio"], .form-input input[type^="checkbox"] {
+	margin-right: 5px;
+}
+
+.inputLabel {
+	margin-right: 20px;
+}
+
+.buttons {
+	margin: 10px;
+}
+
+input[readonly^="true"] {
+	cursor: no-drop;
+}

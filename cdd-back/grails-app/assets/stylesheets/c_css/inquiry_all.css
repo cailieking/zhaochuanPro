@@ -1,0 +1,36 @@
+.inpuiryHistory{width:387px;height:422px;}
+
+.manage_md_right .rightNav1 a{color:#2a9de9;text-decoration:none;display:block;}
+.manage_md_right .rightNav1 a:hover{color:#1c78b5;}
+.manage_md_right .rightNav1 .sel a{color:#fff;}
+
+.inpuiry_manage_all{width:1200px;float:left;}
+.manage_md_right .rControlLine .box1{text-indent:5px;}
+
+.im_pageBg{margin-top:7px;width:50%;height:28px;float:right;text-align:right;}
+
+/*询盘记录*/
+.inpuiryHistory .titleBg{background-color:#999999;}
+.inpuiryHistory .caption{color:#fff;}
+.inpuiryHistory .closeBtn{color:#2a9de9;}
+.inpuiryHistory .t_status{padding-left:20px;float:left;}
+.inpuiryHistory .t_details{margin-left:20px;width:50px;text-align:center;cursor:pointer;color:#fff;float:left;}
+.inpuiryHistory .t_data_history{height:270px;clear:both;overflow-y:auto;}
+.inpuiryHistory .t_data_list{width:330px;float:left;}
+.inpuiryHistory .t_data_list>li{width:330px;min-height:26px;float:left;}
+.inpuiryHistory .t_data_list>li>.t_label{width:80px;height:26px;line-height:26px;text-align:right;color:#000;float:left;}
+.inpuiryHistory .t_data_list>li>.t_txt{padding-top:2px;width:245px;min-height:22px;line-height:22px;color:#2a9de9;float:right;}
+.inpuiryHistory .t_data_list>li.red>.t_label,
+.inpuiryHistory .t_data_list>li.red>.t_txt{color:#f00;}
+.inpuiryHistory .t_data_list>li.white>.t_label,
+.inpuiryHistory .t_data_list>li.white>.t_txt{color:#fff;}
+.inpuiryHistory .t_data_cur>.t_topTxt{width:100%;height:60px;background:#fff;float:left;}
+.inpuiryHistory .t_data_grid{margin:4px;width:330px;background:#ccffff;float:left;}
+.inpuiryHistory .t_data_grid.yellow{background:#ffffcc;float:right;}
+.inpuiryHistory .t_data_grid.black{background:#000;}
+.inpuiryHistory .t_data_grid>.t_title{width:100%;height:22px;line-height:22px;border-bottom:1px #e4e4e4 solid;float:left;}
+.inpuiryHistory .t_data_grid>.t_title>.time{padding-left:12px;color:#f00;line-height:22px;float:left;}
+.inpuiryHistory .t_data_grid>.t_title>.name{padding-right:12px;color:#2a9de9;line-height:22px;text-align:right;float:right;}
+.inpuiryHistory .t_bottom{padding-top:15px;height:33px;clear:both;}
+.inpuiryHistory .t_bottom .btnMod1{margin:0 15px 0 5px;float:left;}
+/*询盘记录*/

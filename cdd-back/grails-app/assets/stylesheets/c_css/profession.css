@@ -1,0 +1,42 @@
+.addProfessionDlg,
+.editProfessionDlg{width:380px;}
+
+.wm_table{width:338px;margin:9px 0 0 9px;position:relative;}
+.professionname{cursor:pointer;cursor:hand;color:#2a9de9;}
+.wm_profession_page{padding:9px 9px 0 0;height:30px;clear:both;text-align:right;}
+
+.pfTreeBg{padding-top:40px;clear:both;text-align:center;}
+.pfTreeBg .pfRow{height:46px;clear:both;}
+.pfTreeBg .pfGrid{min-height:46px;min-width:90px;display:inline-block;position:relative;vertical-align:top;}
+.pfTreeBg .pfGrid .tLine,
+.pfTreeBg .pfGrid .bLine{position:absolute;height:9px;width:1px;left:50%;background:#666666;}
+.pfTreeBg .pfGrid .tLine{top:0;}
+.pfTreeBg .pfGrid .bLine{top:37px;}
+.pfTreeBg .pfGrid .hLine_l,
+.pfTreeBg .pfGrid .hLine_m,
+.pfTreeBg .pfGrid .hLine_r{position:absolute;height:1px;background:#666666;top:0;}
+.pfTreeBg .pfGrid .hLine_l{width:50%;right:0;}
+.pfTreeBg .pfGrid .hLine_m{width:100%;left:0;}
+.pfTreeBg .pfGrid .hLine_r{width:50%;left:0;}
+.pfTreeBg .pfGrid .pfTextBg{height:46px;clear:both;}
+.pfTreeBg .pfGrid .pfText{padding:0 10px;height:28px;line-height:28px;border:1px #2a9de9 solid;color:#2a9de9;border-radius:2px;display:inline-block;position:relative;top:9px;}
+.pfTreeBg .pfGrid .pfText.cur{border-color:#ff9933;color:#ff9933;}
+.pfTreeBg .pfGrid .pfText.last{border-color:#009933;color:#009933; text-decoration:none;}
+
+form  label.error, label.error {
+    color: red;
+    font-style: italic;
+    border-radius: 0;
+    float: left;
+    margin-left:150px
+}
+
+#jt_tree {
+    background: #f0f6e4 none repeat scroll 0 0;
+    border: 1px solid #617775;
+    height: 160px;
+    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    width: 320px;
+}

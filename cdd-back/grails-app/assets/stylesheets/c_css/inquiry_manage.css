@@ -1,0 +1,18 @@
+.inpuiry_manage{width:1000px;float:left;}
+
+.labelTishi{width:280px;float:left;}
+.im_pageBg{margin-top:7px;width:50%;height:28px;float:right;text-align:right;}
+
+.im_table .labelDiv{width:20px;height:20px;display:inline-block;vertical-align:middle;}
+
+.addLabelDlg,
+.addNeedDlg,
+.addGroupDlg,
+.addTypeDlg{width:558px;}
+.addLabelDlg .guestLabel{float:left;}
+
+/*客户颜色分组标签*/
+.guestLabel{width:96px;height:34px;background:#fff;line-height:36px;text-align:center;border:1px #cccccc solid; cursor:pointer; cursor:hand;position:relative;}
+.guestLabelList{padding-top:5px;width:100px;height:100px;position:absolute;z-index:1;top:31px;left:20px;cursor:default;display:none;}
+.guestLabelList li{margin:0 10px 10px 0;width:20px;height:20px;cursor:pointer;cursor:hand;float:left;}
+/*客户颜色分组标签*/

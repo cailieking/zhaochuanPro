@@ -1,0 +1,74 @@
+<plugin name='cdd-base' version='0.9-SNAPSHOT' grailsVersion='2.4 &gt; *'>
+  <author>George Zeng</author>
+  <title>Cdd Base Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/cdd-base</documentation>
+  <type>CddBaseGrailsPlugin</type>
+  <resources>
+    <resource>CommonConfig</resource>
+    <resource>CommonDataConfig</resource>
+    <resource>LogConfig</resource>
+    <resource>com.cdd.base.domain.AccessLog</resource>
+    <resource>com.cdd.base.domain.AdvCorporation</resource>
+    <resource>com.cdd.base.domain.ArticleInformation</resource>
+    <resource>com.cdd.base.domain.BackDepartment</resource>
+    <resource>com.cdd.base.domain.BackUser</resource>
+    <resource>com.cdd.base.domain.Booking</resource>
+    <resource>com.cdd.base.domain.BookingSo</resource>
+    <resource>com.cdd.base.domain.CargoShipInformation</resource>
+    <resource>com.cdd.base.domain.CargoShipItemScore</resource>
+    <resource>com.cdd.base.domain.CargoShipScore</resource>
+    <resource>com.cdd.base.domain.City</resource>
+    <resource>com.cdd.base.domain.ClientManager</resource>
+    <resource>com.cdd.base.domain.ClientType</resource>
+    <resource>com.cdd.base.domain.Company</resource>
+    <resource>com.cdd.base.domain.CompanyCertificate</resource>
+    <resource>com.cdd.base.domain.ContactPerson</resource>
+    <resource>com.cdd.base.domain.DatabaseUpdate</resource>
+    <resource>com.cdd.base.domain.DemandClass</resource>
+    <resource>com.cdd.base.domain.EndPort</resource>
+    <resource>com.cdd.base.domain.EndPortMapping</resource>
+    <resource>com.cdd.base.domain.EnterpriseDirectory</resource>
+    <resource>com.cdd.base.domain.FrontAuthority</resource>
+    <resource>com.cdd.base.domain.FrontUser</resource>
+    <resource>com.cdd.base.domain.GroupManager</resource>
+    <resource>com.cdd.base.domain.ImageInformation</resource>
+    <resource>com.cdd.base.domain.InqueryPrice</resource>
+    <resource>com.cdd.base.domain.InquiryOfferPrice</resource>
+    <resource>com.cdd.base.domain.JobTitle</resource>
+    <resource>com.cdd.base.domain.LoginLog</resource>
+    <resource>com.cdd.base.domain.Matchmaking</resource>
+    <resource>com.cdd.base.domain.Menu</resource>
+    <resource>com.cdd.base.domain.NewComeIn</resource>
+    <resource>com.cdd.base.domain.NewRoute</resource>
+    <resource>com.cdd.base.domain.Order</resource>
+    <resource>com.cdd.base.domain.OrderPrice</resource>
+    <resource>com.cdd.base.domain.RecommendedRoute</resource>
+    <resource>com.cdd.base.domain.RecommendedShipInfo</resource>
+    <resource>com.cdd.base.domain.Requestmap</resource>
+    <resource>com.cdd.base.domain.Role</resource>
+    <resource>com.cdd.base.domain.RoleAuthority</resource>
+    <resource>com.cdd.base.domain.Route</resource>
+    <resource>com.cdd.base.domain.SearchLog</resource>
+    <resource>com.cdd.base.domain.ShippingPrices</resource>
+    <resource>com.cdd.base.domain.ShowInquiry</resource>
+    <resource>com.cdd.base.domain.StartPort</resource>
+    <resource>com.cdd.base.domain.SupplierAccount</resource>
+    <resource>com.cdd.base.domain.SupplierGroup</resource>
+    <resource>com.cdd.base.domain.SupplierLevel</resource>
+    <resource>com.cdd.base.domain.SupplierManager</resource>
+    <resource>com.cdd.base.domain.SupplierPerson</resource>
+    <resource>com.cdd.base.domain.SupplierTag</resource>
+    <resource>com.cdd.base.domain.TagManager</resource>
+    <resource>com.cdd.base.domain.WeekRanking</resource>
+    <resource>com.cdd.base.service.CargoShipInformationService</resource>
+    <resource>com.cdd.base.service.CityService</resource>
+    <resource>com.cdd.base.service.OrderService</resource>
+    <resource>com.cdd.base.service.OssService</resource>
+    <resource>com.cdd.base.service.SmsService</resource>
+    <resource>com.cdd.base.service.common.CRUDService</resource>
+    <resource>com.cdd.base.service.common.CommonService</resource>
+    <resource>com.cdd.base.service.dbupdator.core.DatabaseUpdatorService</resource>
+  </resources>
+</plugin>

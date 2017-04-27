@@ -1,0 +1,147 @@
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.nav-right {
+	float: left;
+	padding-top: 15px;
+}
+
+.navbar {
+	background: url("bt_cubs.png") repeat scroll left top #133959;
+	
+}
+
+.nav-right {
+	margin-left: 15px;
+}
+
+.layui-layer-title {
+    background-color: #d4dce5;
+    border-bottom: 1px solid #d5d5d5;
+    color: #333;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    padding: 0 80px 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin:-20px;
+}
+
+
+
+
+
+.navbar-brand {
+	color: #fff;
+    border-left-color: #2B5A74;
+    border-right: 1px solid #0E2C44;
+    position: relative;
+    top: -10px;
+}
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+}
+
+.nav .open > a:hover, .nav .open>a:focus {
+	background: url("bt_cubs_a.png") repeat scroll left top rgba(0, 0, 0, 0);
+    border-color: #337AB7;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background: url("bt_cubs.png") repeat scroll left top rgba(0, 0, 0, 0);
+}
+
+.dropdown-menu {
+	/* background: url("bt_cubs.png") repeat scroll left top #222222 */
+	background:#D4DCE5;
+}
+
+.dropdown-menu>li>a {
+	/* color: #fff; */
+}
+
+.navbar-nav > li > a {
+    border-left: 1px solid #2B5A74;
+    border-right: 1px solid #0E2C44;
+}
+
+.last-menu {
+    border-left: 1px solid #2B5A74;
+    padding-top: 30px;
+}
+
+.nav>li>a[aria-expanded="false"] {
+	background: rgba(0,0,0,0) !important;
+}
+
+.breadcrumb {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.breadcrumb > li.active {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.breadcrumb > li + li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    padding: 0 8px;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: rgba(0,0,0,0);
+}

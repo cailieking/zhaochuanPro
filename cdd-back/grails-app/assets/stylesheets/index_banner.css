@@ -1,0 +1,31 @@
+.child_table .td1{width:38px;}
+.child_table .td2{width:43px;}
+.child_table .td3{width:366px;}
+.child_table .td4{width:468px;}
+.child_table .td5{width:57px;}
+.child_table .tr{height:200px;}
+.child_table .tr .td{height:199px;}
+.child_table .infoList{margin:10px 0 0 10px;width:448px;float:left;}
+.child_table .image{margin:14px 0 0 8px;width:350px;height:150px;float:left;}
+.child_table .image_look{margin:0 0 0 8px;width:350px;height:24px;line-height:24px;float:left;}
+.child_table .image_look>span{cursor:pointer;cursor:hand;float:right;}
+
+.bannerEdit{width:558px;height:518px;position:absolute;top:120px;left:50%;margin-left:-279px;background:#f2f2f2;}
+.bannerEdit .caption{width:100%;height:38px;line-height:38px;text-indent:16px;background:#cccccc;float:left;}
+.editList{width:100%;padding-top:20px;height:430px;float:left;}
+.editList li{width:100%;margin-bottom:14px;min-height:20px;float:left;}
+.editList .clabel{width:83px;margin-left:26px;height:20px;line-height:20px;float:left;}
+.editList .clabel .must{float:right;padding-right:3px;font-size:16px;}
+.editList .box{outline:none;background:#fff;height:22px;line-height:22px;text-align:center;border:1px #797979 solid;}
+.editList .box295{width:295px;}
+.editList .box83{width:83px;}
+.editList .box21{width:21px;}
+.editList .right{width:300px;float:left;}
+.editList .fileInfo{padding-left:9px;text-indent:-9px;}
+.editList .image{width:297px; height:150px;float:left;}
+.editList .imageOper{width:297px;height:42px;line-height:42px;float:left;}
+.editList .imageOper>span{margin-left:50px;cursor:pointer;cursor:hand;float:right;}
+.editList .imageOper>span:hover{text-decoration:underline;}
+.bannerEdit .btmBtnsBg{width:406px;height:20px;float:left;}
+.bannerEdit .btmBtnsBg .editBtn{margin-left:50px;padding:0 22px;height:20px;outline:none;background:#6666ff;border:1px #797979 solid;color:#fff;cursor:pointer;cursor:hand;float:right;}
+.bannerEdit .close{margin:13px 13px 0 0;width:13px;height:13px;background:url(/assets/close.png) no-repeat center center;cursor:pointer;cursor:hand;float:right;}

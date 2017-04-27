@@ -1,0 +1,40 @@
+.child_oper .left .clabel{ height:24px; float:left;}
+.child_oper .left .turn{width:100px;height:24px;position:relative;float:left;}
+.child_oper .left .on{background:url(../images/ad_top_bg1.png) no-repeat;}
+.child_oper .left .off{background:url(../images/ad_top_bg2.png) no-repeat;}
+.child_oper .left .turnTxt{width:50px;height:24px;position:absolute;top:0;cursor:pointer;cursor:hand;text-align:center;line-height:24px;color:#fff;}
+.child_oper .left .turnBtn{width:50px;height:24px;background:url(../images/index_top_btn.png) no-repeat;position:absolute;top:0;}
+.child_oper .left .on .turnTxt{left:0;}
+.child_oper .left .off .turnTxt{left:50px;}
+.child_oper .left .on .turnBtn{left:50px;}
+.child_oper .left .off .turnBtn{left:0;}
+
+.child_table .td1{width:82px;}
+.child_table .td2{width:366px;}
+.child_table .td3{width:468px;}
+.child_table .td4{width:57px;}
+.child_table .tr{height:200px;}
+.child_table .tr .td{height:199px;}
+.child_table .infoList{margin:10px 0 0 10px;width:448px;float:left;}
+.child_table .image{margin:55px 0 0 65px;width:230px;height:100px;float:left;}
+
+.adEdit{width:558px;height:620px;position:absolute;top:50px;left:50%;margin-left:-279px;background:#f2f2f2;}
+.adEdit .caption{width:100%;height:38px;line-height:38px;text-indent:16px;background:#cccccc;float:left;}
+.editList{width:100%;padding-top:20px;height:502px;float:left;}
+.editList li{width:100%;margin-bottom:14px;min-height:20px;float:left;}
+.editList .clabel{width:83px;margin-left:26px;height:20px;line-height:20px;float:left;}
+.editList .clabel .must{float:right;padding-right:3px;font-size:16px;}
+.editList .box{outline:none;background:#fff;height:18px;line-height:18px;text-align:center;border:1px #797979 solid;}
+.editList .box295{width:295px;}
+.editList .timesBg{width:83px;position:relative;float:left;}
+.editList .box83{width:83px;}
+.editList .box21{width:21px;}
+.editList .right{width:300px;float:left;}
+.editList .fileInfo{padding-left:9px;text-indent:-9px;}
+.editList .image{width:297px; height:150px;float:left;}
+.editList .imageOper{width:297px;height:42px;line-height:42px;float:left;}
+.editList .imageOper>span{margin-left:50px;cursor:pointer;cursor:hand;float:right;}
+.editList .imageOper>span:hover{text-decoration:underline;}
+.adEdit .btmBtnsBg{width:406px;height:20px;float:left;}
+.adEdit .btmBtnsBg .editBtn{margin-left:50px;padding:0 22px;height:20px;outline:none;background:#6666ff;border:1px #797979 solid;color:#fff;cursor:pointer;cursor:hand;float:right;}
+.adEdit .close{margin:13px 13px 0 0;width:13px;height:13px;background:url(../images/close.png) no-repeat center center;cursor:pointer;cursor:hand;float:right;}

@@ -1,0 +1,66 @@
+.linkmanDetailsDlg{width:358px;}
+.addLinkmanDlg,
+.editLinkmanDlg{width:358px;}
+
+.inpuiry_manage_guest{width:1000px;float:left;}
+
+.labelTishi{width:280px;float:left;}
+.im_pageBg{margin-top:7px;width:50%;height:28px;float:right;text-align:right;}
+
+.im_table .labelDiv{width:20px;height:20px;display:inline-block;vertical-align:middle;}
+.rControlLine .guestLabel{float:left;}
+
+/*客户颜色分组标签*/
+.guestLabel{width:96px;height:32px;background:#fff;line-height:32px;text-align:center;border:1px #cccccc solid; cursor:pointer; cursor:hand;position:relative;}
+.guestLabelList{padding-top:5px;width:100px;height:100px;position:absolute;z-index:1;top:31px;left:20px;cursor:default;display:none;}
+.guestLabelList li{margin:0 10px 10px 0;width:20px;height:20px;cursor:pointer;cursor:hand;float:left;}
+/*客户颜色分组标签*/
+
+/*导入弹出框*/
+.importDlg{width:600px;}
+.importDlg .iLabel{color:#646987;font-weight:bold;}
+.importDlg .btnMod2{width:118px;float:left;}
+.importDlg .btnMod2>a{display:block;color:#fff;text-decoration:none;}
+.importDlg .guestModFileData{margin:1px 0;height:34px;line-height:34px;display:none;color:#2a9de9;float:left;}
+.importDlg .guestModFileData .fileName{margin-right:30px;height:34px;float:left;}
+.importDlg .guestModFileData .fileDel{width:40px;height:34px;text-align:center;cursor:pointer;cursor:hand;float:left;}
+/*导入弹出框 end*/
+
+/*导入错误弹出框*/
+.importErrorDlg{width:738px;}
+.importErrorDlg .errorListBg{width:100%;max-height:330px;overflow-y:auto;float:left;}
+.importErrorDlg .errorList{margin:15px 30px;width:673px;border:1px #cccccc solid;float:left;}
+.importErrorDlg .errorList>li{width:100%;height:29px;border-bottom:1px #cccccc solid;float:left;}
+.importErrorDlg .errorList>li:last-child{border-bottom:0;}
+.importErrorDlg .errorList>li>div{width:78px;height:29px;line-height:29px;text-align:center;border-right:1px #cccccc solid;color:#fff;float:left;overflow:auto}
+.importErrorDlg .errorList>li>div:last-child{border-right:0;}
+.importErrorDlg .errorList .eHeader{background:#4bcaff;}
+.importErrorDlg .errorList .eIndex{width:36px;background:#3399ee;}
+.importErrorDlg .eTishi{margin:15px 30px;width:548px;float:left;}
+.importErrorDlg .eBtn{margin:70px 33px 0 0;float:right;}
+/*导入错误弹出框 end*/
+
+/*添加客户弹出框*/
+.addGuestDlg{width:648px;}
+.addGuestDlg .guestLabel{float:left;}
+.addGuestDlg .addBtn1{margin-left:30px;height:24px;line-height:24px;float:left;}
+.addGuestDlg .editList{position:relative;max-height:540px;overflow-y:auto;}
+.addGuestDlg .blueBtn{margin:0 10px;float:left;}
+.editGuestDlg{width:648px;}
+.editGuestDlg .guestLabel{float:left;}
+.editGuestDlg .addBtn1{margin-left:30px;height:24px;line-height:24px;float:left;}
+.editGuestDlg .editList{position:relative;max-height:540px;overflow-y:auto;}
+.editGuestDlg .blueBtn{margin:0 10px;float:left;}
+.childDlgBg0{width:100%;height:100%;position:absolute;top:0;left:0;}
+.childDlgBg0 .cTishi{position:absolute;top:0;left:369px;width:214px;z-index:1;}
+.addNeedDlg,
+.addTypeDlg,
+.addGroupDlg,
+.addLabelDlg{width:558px;position:absolute !important;}
+/*添加客户弹出框 end*/
+
+/*客户详情*/
+.guestDetailsDlg{width:458px;}
+.guestDetailsDlg .guestLabel{float:left;}
+.guestDetailsDlg .blueBtn{margin-left:15px;height:24px;line-height:24px;float:left;}
+/*客户详情 end*/

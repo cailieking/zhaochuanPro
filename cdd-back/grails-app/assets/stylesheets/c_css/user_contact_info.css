@@ -1,0 +1,6 @@
+.contact_infoList{margin:0;padding:0;list-style:none;width:320px;float:left;}
+.contact_infoList li{width:100%; margin-bottom:10px;min-height:25px;float:left;}
+.contact_infoList .cLabel{width:90px;height:25px;line-height:25px;color:#000;text-align:right;float:left;}
+.contact_infoList .cBox{width:200px;height:25px;border-radius:0;border:1px #444 solid;float:right;}
+.contact_infoList .cBtn{width:70px;float:right;}
+.contact_info_tishi{margin-top:40px;width:390px;float:left;}

@@ -1,0 +1,167 @@
+/*global setting*/
+a[name="child"] {
+	/*color: orange;*/
+	color: #ADBECE;
+	outline: none !important;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+body {
+	color: #333;
+}
+
+
+/******footer************/
+.page-footer {
+	padding: 0px 10px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	color: #F2F2FF;
+	clear: both;
+	margin: 30px auto;
+}
+
+/**button**/
+.table-btn {
+	float: right;
+	margin-left: 10px;
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+.block {
+    /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3); */
+    /* background: #ECF5FF; */
+    background: #D4DCE5;
+    margin: 0;
+    list-style: none outside none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    /* height: 600px; */
+}
+/*#EDF3FC*/
+.table {
+    background-color: #EDF3FC;
+    margin-bottom: 0;
+}
+
+#dataform {
+	padding:55px;
+}
+.layui-layer-title {
+    background-color: #d4dce5;
+    border-bottom: 1px solid #d5d5d5;
+    color: #333;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    padding: 0 80px 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin:-20px;
+}
+
+
+.table-striped > tbody > tr:nth-child(2n+1) {
+    /* background: rgba(0, 0, 0, 0) none repeat scroll 0 0; */
+    background : #E5E5E5;
+}
+
+input, select, select[multiple], textarea {
+   /*  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2) !important; */
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    /* color: #FFFFFF !important; */
+    border-radius: 6px;
+}
+
+.form-row {
+    float: left;
+    line-height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form-row:first-child {
+    margin-top: 10px;
+}
+.form-row:last-child {
+    margin-bottom: 0;
+}
+
+.errorMsgs {
+	color: yellow;
+}
+
+.infoMsgs {
+	color: #66FF66;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-color: rgba(0,0,0,0.2);
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #fff;
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0.2);
+}
+
+pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0.2);
+    color: #333;
+    cursor: no-drop;
+}
+
+.table-selbtn {
+	line-height: 1.1;
+}
+
+li[name="menuchild"]{
+	background-color: #374B5E;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    line-height:2.5
+}
+li[name="menuchild"]:hover,
+li[name="menuchild"].sel{
+	background-color: #242c33;
+}
+ /* background: #2c5c82 url("bg/bg_num4.png") no-repeat scroll center center; */
+.bg-img-num4 {
+    background:#fff;
+}
+
+.breadcrumb {
+    /* background: rgba(0, 0, 0, 0) none repeat scroll 0 0; */
+    background : #ECF5FF;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.breadcrumb > li.active {
+    color: #337ab7;
+    opacity: 1;
+}
+
+* .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    /* background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0; */
+     background-color: 	#FFFFFF; 
+     z-index:100;
+} 
+/* .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background: #FFFFFF;
+} */

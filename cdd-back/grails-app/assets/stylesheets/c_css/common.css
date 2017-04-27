@@ -1,0 +1,222 @@
+/*resets*/
+body{font-family:"Microsoft YaHei";font-size:14px;background:#fff;}
+*{padding:0px;margin:0px;}
+ul,li{list-style:none;}
+a{text-decoration:none;cursor:pointer;cursor:hand;}
+a,img{outline:none;border:none;max-width:100%;}
+input[type="checkbox"]{width:16px;height:16px;}
+input[type="radio"]{width:16px;height:16px;}
+/*resets end*/
+
+.blue{color:#2a9de9;}
+.red{color:#f00;}
+.yellow{color:#ffff66;}
+.gary{color:#cccccc;}
+.gary2{color:#f1f1f1;}
+.gary3{color:#d7d7d7;}
+.gary4{color:#999999;}
+.orange{color:#ff9933;}
+.qing{color:#b3e2f4;}
+.tianlan{color:#0fc6ff;}
+.green{color:#00cc00;}
+.hand{cursor:pointer;cursor:hand;}
+.omit{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+
+
+
+.manage_md_right{margin-left:10px;width:1100px;float:left;}
+.manage_md_right .rControlLine{height:42px;clear:both;}
+.manage_md_right .rControlLine .checkAll{margin-top:15px;float:left;}
+.manage_md_right .rControlLine .label0{width:80px;height:42px;line-height:42px;color:#646987;font-weight:bold;float:left;}
+.manage_md_right .rControlLine .label1{margin-left:10px;width:80px;height:42px;line-height:42px;float:left;}
+.manage_md_right .rControlLine .txt1{margin-right:20px;height:42px;line-height:42px;float:left;}
+.manage_md_right .rControlLine a{margin:0 5px;color:#2a9de9;float:left;}
+.manage_md_right .rControlLine a:hover{text-decoration:underline;}
+.manage_md_right .rControlLine .box1{margin:10px 0 0;width:164px;height:25px;line-height:25px;border-radius:0;border:1px #898989 solid;float:left;}
+.manage_md_right .rControlLine .select1{margin:10px 0 0;width:100px;height:25px;border-radius:0;float:left;}
+.manage_md_right .rControlLine .btnR{margin:8px 0 0 20px;float:right;}
+.manage_md_right .rControlLine .btnL{margin:8px 0 0 20px;float:left;}
+.manage_md_right .rControlLine .link{padding:0 2px;margin:0 3px;color:#2a9de9;height:46px;cursor:pointer;cursor:hand;float:left;}
+.manage_md_right .rControlLine .link:hover{text-decoration:underline;}
+.manage_md_right .rGridTop{margin-bottom:16px;width:100%;height:28px;background:#e4e4e4;border-radius:4px;float:left;}
+.manage_md_right .rGridTop>div{height:28px;line-height:28px;text-align:center;}
+.manage_md_right .rGridList{width:1098px;border:1px #2a9de9 dotted;border-radius:4px;float:left;}
+.manage_md_right .rGridList li{width:1098px;height:34px;line-height:34px;border-bottom:1px #2a9de9 solid;float:left;}
+.manage_md_right .rGridList li:last-child{border-bottom:none;}
+.manage_md_right .rGridList .gBtn{margin:4px 15px 0 0;width:27px;height:27px;cursor:pointer;cursor:hand;float:right;}
+.manage_md_right .rGridList .mail{background:url(../c_images/gridMailIcon.png);}
+.manage_md_right .rGridList .look{background:url(../c_images/gridLookIcon.png);}
+.manage_md_right .rGridList .edit{background:url(../c_images/gridEditIcon.png);}
+.manage_md_right .rGridList .delete{background:url(../c_images/gridDeleteIcon.png);}
+.manage_md_right .rGridList .start{background:url(../c_images/gridStartIcon.png);}
+.manage_md_right .rGridList .stop{background:url(../c_images/gridStopIcon.png);}
+.manage_md_right .rightNav1{padding:0 0 0 15px;width:1100px;height:36px;border-bottom:1px #cccccc solid;float:left;}
+.manage_md_right .rightNav1 li{width:198px;height:34px;line-height:34px;text-align:center;background:#fff;color:#2a9de9;cursor:pointer;cursor:hand;border:1px #2a9de9 solid;border-right:0;position:relative;top:2px;float:left;}
+.manage_md_right .rightNav1 li:first-child{border-radius:4px 0 0 0;}
+.manage_md_right .rightNav1 li:last-child{border-radius:0 4px 0 0;border-right:1px #2a9de9 solid;}
+.manage_md_right .rightNav1 .sel{background:#2a9de9;color:#fff;}
+.manage_md_right .rightNav1 a{color:#2a9de9;text-decoration:none;display:block;}
+.manage_md_right .rightNav1 a:hover{color:#1c78b5;}
+.manage_md_right .rightNav1 .sel a{color:#fff;}
+
+/*按钮模板*/
+.btnMod1{outline:none;padding:0 20px;height:28px;line-height:28px;text-align:center;border:1px #2a9de9 solid;color:#2a9de9;font-size:14px;font-weight:normal;background:#fff;cursor:pointer;cursor:hand;border-radius:2px;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;}
+.btnMod1:hover{color:#fff;background:#2a9de9;}
+.btnMod1:active{color:#fff;background:#019dce;}
+.btnMod2{outline:none;height:34px;line-height:34px;text-align:center;border:1px #797979 solid;color:#fff;font-size:14px;font-weight:normal;background:#5e5e5e;cursor:pointer;cursor:hand;border-radius:2px;box-shadow:0 0 4px #797979;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;}
+.blueBtn{color:#0088dd;cursor:pointer;cursor:hand;}
+.blueBtn:hover{color:#0fc6ff;}
+/*按钮模板 end*/
+
+/*弹出窗口模板*/
+.winModBg0{width:100%;height:100%;background:#000;background:rgba(0,0,0,0.5);position:fixed;top:0;left:0;z-index:999;}
+.winModBg{border:1px #cccccc solid;background:#fff;border-radius:4px;position:absolute;z-index:1000;}
+.winModBg .titleBg{width:100%;height:28px;line-height:28px;color:#666666;background:#f1f1f1;border-radius:3px 3px 0 0;border-bottom:1px #cccccc solid; cursor:move;float:left;}
+.winModBg .titleBg .caption{height:28px;text-indent:10px;float:left;}
+.winModBg .titleBg .closeBtn{width:28px;height:28px;text-align:center;font-size:16px;cursor:pointer;cursor:hand;float:right;}
+
+.alertMod{width:358px;height:148px;}
+.alertMod .alertContent{width:358px;height:119px;float:left;}
+.alertMod .tishiIcon{width:128px;height:120px;background:url(../c_images/tishiIcon1.png) no-repeat center center;float:left;}
+.alertMod .rightBg{width:225px;height:119px;float:left;}
+.alertMod .txtBg{margin-left:30px;width:190px;height:70px;float:left;}
+.alertMod .alertTxt{color:#2a9de9;line-height:22px;}
+.alertMod .btnBg{width:200px;height:35px;float:left;}
+.alertMod .alertBtn{margin-left:30px;float:right;}
+
+.wEditMod{height:auto;}
+.wEditMod .editList{padding:15px 0;position:relative;clear:both;}
+.wEditMod .editList>li{padding:4px 0;min-height:36px;clear:both;}
+.wEditMod .editList .wLabel{width:140px;height:36px;line-height:36px;text-align:right;float:left;}
+.wEditMod .editList .wLabel .imp{width:30px;height:36px;line-height:36px;text-align:center;color:#f00;float:right;}
+.wEditMod .editList .txt1{height:36px;line-height:36px;text-align:right;float:left;}
+.wEditMod .editList .box1{width:388px;height:24px;float:left;}
+.wEditMod .editList .box2{width:188px;height:24px;float:left;}
+.wEditMod .editList .box3{width:88px;height:24px;float:left;}
+.wEditMod .editList .area1{resize:none;width:188px;height:60px;float:left;}
+.wEditMod .editList .select1{width:200px;height:36px;float:left;}.
+.wEditMod .editList .btnsBg{margin:3px 0 0 140px;height:30px;float:left;}
+.wEditMod .editList .bottomBtns{margin:6px 0 0 140px;height:30px;float:left;}
+.wEditMod .editList .bottomBtns .btnMod1{margin-right:30px;float:left;}
+.wEditMod .tishi1{margin-left:140px;width:428px;float:left;}
+.wEditMod .tishi2{position:absolute;top:20px;left:369px;width:168px;z-index:1;}
+/*弹出窗口模板 end*/
+
+/*三状态checkbox模拟*/
+.modCheckbox0,
+.modCheckbox1,
+.modCheckbox2{width:15px;height:15px;cursor:pointer;cursor:hand;}
+.modCheckbox0{background:url(../c_images/modCheck0.png) no-repeat;}
+.modCheckbox1{background:url(../c_images/modCheck1.png) no-repeat;}
+.modCheckbox2{background:url(../c_images/modCheck2.png) no-repeat;}
+/*三状态checkbox模拟*/
+
+/*文本纵向居中*/
+.vertMdTxtBg0{display:table;position:relative;}
+.vertMdTxtBg{display:table-cell;vertical-align:middle;*position:absolute;*top:50%;*left:50%;}
+.vertMdTxt{*position:relative;*top:-50%;*left:-50%;}
+/*文本纵向居中 end*/
+
+
+/*提示文本*/
+.modTishiBg{border:1px #ff9933 dotted;border-radius:4px;box-shadow:2px 2px 4px #ccc;}
+.modTishiBg .modTishiTxt{padding:5px 15px 0 25px;color:#ff9933;font-size:12px;line-height:16px;font-weight:normal;clear:both;background:url(../c_images/tishiTxtPoint.jpg) no-repeat 14px 11px;}
+.modTishiBg .modTishiTxt:last-child{padding-bottom:5px;}
+/*提示文本 end*/
+
+
+/*--分页控件--*/
+.common_pageBK{height:28px;font-size:14px;color:#000;line-height:26px;display:inline-block;}
+.common_page_first,
+.common_page_up,
+.common_page_number,
+.common_page_down,
+.common_page_last,
+.common_page_go{padding:0 10px;margin-left:5px;height:26px;border:1px #c2c6c5 solid;border-radius:3px;background:#fff;text-align:center;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;float:left;}
+.common_page_first:hover,
+.common_page_up:hover,
+.common_page_number:hover,
+.common_page_number_sel,
+.common_page_down:hover,
+.common_page_last:hover,
+.common_page_go:hover{background:#3c3c3c;border-color:#3c3c3c;color:#fff;cursor:pointer;}
+.common_page_LPoint,
+.common_page_RPoint,
+.common_page_sum{margin:0 5px;float:left;height:28px;}
+.common_page_LPoint,
+.common_page_RPoint{display:none;}
+.common_page_input_number{width:26px;height:26px;border:1px #c2c6c5 solid;border-radius:3px; text-align:center;background:#fff;float:left;}
+.common_page_first.disabled,
+.common_page_up.disabled,
+.common_page_down.disabled,
+.common_page_last.disabled{background:#fff;border-color:#d2d2d2;color:#7f7f7f;}
+.common_page_first.disabled:hover,
+.common_page_up.disabled:hover,
+.common_page_down.disabled:hover,
+.common_page_last.disabled:hover{background:#fff;border-color:#d2d2d2;color:#7f7f7f;cursor:default;}
+/*--分页控件 end--*/
+
+/*--分页控件2--*/
+.common_page2BK{height:20px;font-size:14px;color:#000;line-height:20px;display:inline-block;}
+.common_page2_first,
+.common_page2_up,
+.common_page2_down,
+.common_page2_last{width:20px;height:20px;background-repeat:no-repeat;background-position:0 0;float:left;}
+.common_page2_first{background-image:url(../c_images/page_first.png);}
+.common_page2_up{background-image:url(../c_images/page_up.png);}
+.common_page2_down{background-image:url(../c_images/page_down.png);}
+.common_page2_last{background-image:url(../c_images/page_last.png);}
+.common_page2_first:hover,
+.common_page2_up:hover,
+.common_page2_down:hover,
+.common_page2_last:hover{cursor:pointer;cursor:hand;opacity:0.7;filter:alpha(opacity=70);}
+.common_page2_number{padding:0 3px;margin-left:5px;height:20px;text-align:center;-webkit-user-select:none;float:left;}
+.common_page2_number:hover,
+.common_page2_number_sel{color:#2a9de9;cursor:pointer;cursor:hand;}
+.common_page2_LPoint,
+.common_page2_RPoint,
+.common_page2_sum{margin:0 5px;float:left;height:20px;}
+.common_page2_LPoint,
+.common_page2_RPoint{display:none;}
+.common_page2_input_number{width:18px;height:18px;border:1px #c2c6c5 solid;border-radius:3px; text-align:center;background:#fff;float:left;}
+.common_page2_first.disabled,
+.common_page2_up.disabled,
+.common_page2_down.disabled,
+.common_page2_last.disabled{background-position:0 -21px;}
+.common_page2_first.disabled:hover,
+.common_page2_up.disabled:hover,
+.common_page2_down.disabled:hover,
+.common_page2_last.disabled:hover{cursor:default;opacity:1;filter:alpha(opacity=100);}
+/*--分页控件2 end--*/
+
+
+
+
+/*������ۿ���ʽ */
+.ui-port-list{
+    z-index:1001;
+    border:1px solid rgb(229, 219, 219);
+    width:247px;
+    background-color: white;
+
+}
+.ui-port-list li{
+    color:#666;
+    padding-top:7.5px;
+    padding-bottom:7.5px;
+
+}
+.ui-port-list > li.active,
+.ui-port-list > li:hover,
+.ui-port-list > li:focus {
+  background-color: #E7E7E7;
+}
+.ui-port-list span ,.ui-port-list b{
+    padding-left:12px;
+    font-size:12px;
+}
+.ui-port-list b{
+    float:right;
+    padding-right:12px;
+}
+/*������ۿ���ʽ end*/

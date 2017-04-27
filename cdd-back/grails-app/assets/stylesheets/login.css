@@ -1,0 +1,97 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require_self
+*/
+
+/******* button ********/
+.btn-vk {
+	color: #fff;
+	background-color: #587ea3;
+	border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-vk:hover, .btn-vk:focus, .btn-vk:active, .btn-vk.active, .open .dropdown-toggle.btn-vk
+	{
+	color: #fff;
+	background-color: #4a6a89;
+	border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-vk:active, .btn-vk.active, .open .dropdown-toggle.btn-vk {
+	background-image: none
+}
+
+.btn-vk.disabled, .btn-vk[disabled], fieldset[disabled] .btn-vk, .btn-vk.disabled:hover,
+	.btn-vk[disabled]:hover, fieldset[disabled] .btn-vk:hover, .btn-vk.disabled:focus,
+	.btn-vk[disabled]:focus, fieldset[disabled] .btn-vk:focus, .btn-vk.disabled:active,
+	.btn-vk[disabled]:active, fieldset[disabled] .btn-vk:active, .btn-vk.disabled.active,
+	.btn-vk[disabled].active, fieldset[disabled] .btn-vk.active {
+	background-color: #587ea3;
+	border-color: rgba(0, 0, 0, 0.2)
+}
+
+
+/******* border ********/
+.input-border {
+	border: 1px #667788 solid;
+}
+
+/******* text ********/
+.text-logo {
+	color : #F2F2FF;
+	text-shadow: 1px 1px 0px #587ea3, 6px 4px 0px rgba(0, 0, 0, 0.15);
+	font-family: 'Microsoft YaHei', Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/******* compose ********/
+.vertical-checkbox {
+	vertical-align: -16%;
+}
+
+
+.login-input-group {
+	background: rgba(0, 0, 0, 0.4);
+	color: #FFF;
+	border: 0px;
+	padding: 7px 12px 5px;
+	min-width: 40px;
+}
+
+.login-block {
+	margin: 10% auto;
+	min-width: 400px;
+	width: 444px;
+	color: #F2F2FF;
+}
+
+.login-block-inner {
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 22px 30px 30px 30px;
+	-moz-border-radius: 5%;
+	-webkit-border-radius: 5%;
+	border-radius: 5%;
+}
+
+.login-form-row {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	line-height: 30px;
+}
+
+.login-shadow {
+	background: url('/assets/login/shadow.png') left top no-repeat;
+	width: 444px;
+	height: 33px;
+}
+

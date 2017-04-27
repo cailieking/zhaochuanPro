@@ -1,0 +1,148 @@
+.addInquiry{width:540px;min-height:400px;}
+.inquiryDetails{width:810px;height:560px;}
+.inquiryStop{width:740px;height:375px;}
+.inquirySuppl{width:1080px;height:600px;}
+
+.manage_md_right .rightNav1 a{color:#2a9de9;text-decoration:none;display:block;}
+.manage_md_right .rightNav1 a:hover{color:#1c78b5;}
+.manage_md_right .rightNav1 .sel a{color:#fff;}
+
+.inpuiry_manage_today{width:1200px;float:left;}
+.manage_md_right .rControlLine .new{padding:0 5px;background:#f00;color:#fff;}
+.manage_md_right .rControlLine .box1{margin-top:8px; height:28px;}
+.manage_md_right .rControlLine .btnL{margin-left:0;}
+
+.wEditMod .editList>li{padding:6px 0;min-height:24px;float:left;}
+.wEditMod .editList .wLabel{width:120px;height:24px;line-height:24px;text-align:right;float:left;}
+.wEditMod .editList .wLabel .imp{width:20px;height:24px;line-height:24px;text-align:center;color:#f00;float:right;}
+.wEditMod .editList .box1{width:200px;height:24px;border:1px #a9a9a9 solid !important;border-radius:0;float:left;}
+.wEditMod .editList .select1{width:200px;height:24px;border:1px #000 solid;border-radius:0;float:left;}
+.wEditMod .editList .area1{resize:none;width:380px;height:48px;border:1px #a9a9a9 solid !important;border-radius:0;float:left;}
+.wEditMod .editList .bottomBtns{margin:6px 0 0 120px;}
+.wEditMod .editList .bottomBtns .btnMod1{margin-right:10px;}
+
+
+/*今日询盘列表*/
+.todayInpuiryList{width:1200px;float:left;}
+.todayInpuiryList>li{margin:0 10px 20px 10px;width:377px;height:317px;background:#f2f2f2;border:1px #777777 solid;float:left;}
+.todayInpuiryList .t_line{width:100%;height:28px;line-height:28px;background:#999999;position:relative;float:left;}
+.todayInpuiryList .t_line>.new{padding:0 5px;background:#f00;color:#fff;position:absolute;top:0;margin-left:30px;left:50%;font-size:13px;height:20px;line-height:20px;}
+.todayInpuiryList .t_line>.more{margin-left:150px;float:left;}
+.todayInpuiryList .t_line>.num{padding-left:10px;color:#fff;float:left;}
+.todayInpuiryList .t_line>.status{padding-left:20px;float:left;}
+.todayInpuiryList .t_line>.name{margin-right:10px;text-align:right;float:right;}
+.todayInpuiryList .t_line>.onOff{width:50px;text-align:center;cursor:pointer;color:#fff;float:right;}
+.todayInpuiryList .t_line>.details{margin-right:10px;width:50px;text-align:center;cursor:pointer;color:#fff;float:right;}
+.todayInpuiryList .t_line.yellow{background:#ffff66;}
+.todayInpuiryList .t_data_cur,
+.todayInpuiryList .t_data_history{height:210px;clear:both;overflow-y:auto;}
+.todayInpuiryList .t_data_history{display:none;}
+.todayInpuiryList .t_data_list{width:330px;float:left;}
+.todayInpuiryList .t_data_list>li{width:330px;min-height:26px;float:left;}
+.todayInpuiryList .t_data_list>li>.t_label{width:80px;height:26px;line-height:26px;text-align:right;color:#000;float:left;}
+.todayInpuiryList .t_data_list>li>.t_txt{padding-top:2px;width:245px;min-height:22px;line-height:22px;color:#2a9de9;float:right;}
+.todayInpuiryList .t_data_list>li.red>.t_label,
+.todayInpuiryList .t_data_list>li.red>.t_txt{color:#f00;}
+.todayInpuiryList .t_data_list>li.white>.t_label,
+.todayInpuiryList .t_data_list>li.white>.t_txt{color:#fff;}
+.todayInpuiryList .t_data_cur>.t_topTxt{width:100%;height:60px;background:#fff;float:left;}
+.todayInpuiryList .t_data_grid{margin:4px;width:330px;background:#ccffff;float:left;}
+.todayInpuiryList .t_data_grid.yellow{background:#ffffcc;float:right;}
+.todayInpuiryList .t_data_grid.black{background:#000;}
+.todayInpuiryList .t_data_grid>.t_title{width:100%;height:22px;line-height:22px;border-bottom:1px #e4e4e4 solid;float:left;}
+.todayInpuiryList .t_data_grid>.t_title>.time{padding-left:12px;color:#f00;line-height:22px;float:left;}
+.todayInpuiryList .t_data_grid>.t_title>.name{padding-right:12px;color:#2a9de9;line-height:22px;text-align:right;float:right;}
+.todayInpuiryList .t_bottom{padding-top:15px;height:33px;clear:both;}
+.todayInpuiryList .t_bottom .btnMod1{margin:0 15px 0 5px;float:left;}
+/*今日询盘列表*/
+
+
+/*添加询盘*/
+.addInpuiryContent{width:100%;min-height:330px;float:left;}
+.addInpuiryContent .dataBarList{width:100%;float:left;}
+.addInpuiryContent .dataBarList>li{width:100%;height:24px;background:#999999;border-top:1px #797979 solid;border-bottom:1px #797979 solid;line-height:24px;color:#fff;text-align:center;cursor:pointer;position:relative;float:left;}
+.addInpuiryContent .dataBarList>li .icon_OnOff{width:24px;height:24px;line-height:24px;text-align:center;color:#2a9de9;position:absolute;top:1px;right:10px;font-size:16px;}
+.addInpuiryContent .editList{padding:6px 0;display:none; float:left;}
+.addInpuiryContent .inpuiryBoxes{padding:0;margin:0;width:380px;height:52px;border:1px #a9a9a9 solid;float:left;}
+.addInpuiryContent .inpuiryBoxes>li{padding:0;margin:0;width:94px;height:48px;float:left;}
+.addInpuiryContent .inpuiryBoxes .type{width:100%;height:24px;line-height:24px;text-align:center; float:left;}
+.addInpuiryContent .inpuiryBoxes input{margin-left:17px;width:60px;height:20px;border:1px #a9a9a9 solid !important;border-radius:0;float:left;}
+.addInpuiryContent .inpuiryBoxes2{padding:0;margin:0;width:380px;height:36px;border:1px #a9a9a9 solid;float:left;}
+.addInpuiryContent .inpuiryBoxes2>li{padding:0;margin:0;width:94px;height:36px;float:left;}
+.addInpuiryContent .inpuiryBoxes2 .i_text{margin-top:6px;width:100%;height:24px;line-height:24px;text-align:center; float:left;}
+.addInpuiryContent .isl_label{position:relative;top:-4px;padding-right:12px; }
+.addInpuiryContent .pointersBg{width:138px;height:auto;max-height:112px;position:absolute;top:28px;left:370px;z-index:1;background:#ffffcc;border:1px #797979 solid;border-radius:4px;display:none;overflow-y:auto;}
+.addInpuiryContent .pointersBg>div{width:100%;height:28px;line-height:28px;cursor:pointer;text-indent:16px;float:left;}
+.addInpuiryContent .companysBg{width:400px;height:auto;position:absolute;top:27px;left:120px;z-index:1;background:#ffffcc;border:1px #797979 solid;border-radius:4px;display:none;}
+.addInpuiryContent .companysBg>div{padding:5px 0;width:100%;float:left;}
+.addInpuiryContent .companysBg>.topBg{height:30px;}
+.addInpuiryContent .companysBg>.topBg .caption{height:30px;line-height:30px;text-indent:12px;float:left;}
+.addInpuiryContent .companysBg>.topBg .blueBtn{margin:0 15px 0 0;width:40px;height:30px;line-height:30px;float:right;}
+.addInpuiryContent .companysBg .c_label{width:42px;height:28px;line-height:28px;text-align:center;color:#ff9933;float:left;}
+.addInpuiryContent .companysBg .companyList{width:356px;min-height:28px;line-height:28px;float:left;}
+.addInpuiryContent .companysBg .companyList>li{min-width:71px;height:28px;float:left;}
+.addInpuiryContent .companysBg .companyList input[type="checkbox"]{margin:6px;width:16px;height:16px;float:left;}
+.addInpuiryContent .supplysBg{width:240px;max-height:140px;position:absolute;top:30px;left:120px;z-index:1;background:#ffffcc;border:1px #797979 solid;border-radius:4px;display:none;overflow-y:auto;}
+.addInpuiryContent .supplysBg>div{height:28px;line-height:28px;cursor:pointer;clear:both;}
+.addInpuiryContent .supplysBg .supplyName{height:28px;float:left;}
+.addInpuiryContent .supplysBg input[type="radio"]{position:relative;top:3px;}
+.addInpuiryContent input[type="radio"]{margin:4px 4px 0 0;width:16px;height:16px;float:left;}
+.addInpuiryContent .editList>li>input[type="checkbox"]{margin:4px 4px 0 0;width:16px;height:16px;float:left;}
+.addInpuiryContent .a_label{padding-right:10px;height:24px;line-height:24px;float:left;}
+.addInpuiryBottom{width:100%;height:42px;border-top:1px #777777 solid;float:left;}
+.addInpuiryBottom .btnMod1{margin:7px 0 0 15px;float:left;}
+.addInpuiryTop{width:100%;height:42px;border-bottom:1px #777777 solid;position:relative;z-index:1;float:left;}
+.addInpuiryTop .btnMod1{margin:6px 15px 0 15px;float:right;}
+.addInpuiryTop input{margin-top:8px;width:138px;height:24px;border:1px #a9a9a9 solid !important;border-radius:0;float:right;}
+.addInpuiryTop .pointersBg{width:138px;height:auto;max-height:112px;position:absolute;top:32px;left:301px;z-index:1;background:#ffffcc;border:1px #797979 solid;border-radius:4px;display:none;overflow-y:auto;}
+.addInpuiryTop .at_label{margin-top:8px;height:24px;line-height:24px;text-align:right;text-indent:-12px;float:right;}
+.addInpuiryTop .pointersBg>div{width:100%;height:28px;line-height:28px;cursor:pointer;text-indent:16px;clear:both;}
+/*添加询盘 end*/
+
+/*询盘详情*/
+.detailsContent{width:810px;height:471px;float:left;}
+.detailsContent .details_left{width:399px;height:470px;border-right:1px #cccccc solid;border-bottom:1px #cccccc solid;float:left;}
+.detailsContent .details_right{margin-right:1px;width:399px;height:470px;border-left:1px #cccccc solid;border-bottom:1px #cccccc solid;float:right;}
+.detailsContent .d_title{width:100%;height:20px;line-height:20px;text-align:center;background:#f1f1f1;border-bottom:1px #cccccc solid;float:left;}
+.detailsContent .editList{height:385px;overflow-y:auto;}
+.detailsContent .editList>li{padding:0;}
+.detailsContent .wLabel{padding-right:10px;width:100px !important;}
+.detailsContent .d_txt{padding-top:1px;width:260px;min-height:22px;line-height:22px;color:#2a9de9;float:left;}
+.detailsContent .d_bottom{width:100%;height:32px;border-top:1px #cccccc solid;float:left;}
+.detailsContent .d_bottom .btnMod1{margin:12px 0 0 100px;float:left;}
+.detailsBottom{width:100%;padding:4px 0;height:48px;float:left;}
+.detailsBottom .d_left{width:210px;height:48px;float:left;}
+.detailsBottom .d_left>div{height:24px;clear:both;}
+.detailsBottom .d_left .dl_label{padding-right:10px;width:100px;height:24px;text-align:right;float:left;}
+.detailsBottom .d_left .dl_txt{width:99px;height:24px;color:#2a9de9;float:left;}
+.detailsBottom .d_md{width:420px;height:48px;float:left;}
+.detailsBottom .d_md .dm_label{padding-right:10px;width:100px;height:24px;line-height:24px;text-align:right;float:left;}
+.detailsBottom .d_md .dm_txt{width:300px;padding-top:4px;min-height:18px;line-height:18px;color:#2a9de9;float:left;}
+.detailsBottom .d_right{width:150px;height:48px;float:right;}
+.detailsBottom .d_right .btnMod1{margin:12px 16px 0 0;float:right;}
+/*询盘详情 end*/
+
+/*终止询盘*/
+.inquiryStop .is_top{margin-left:10px;width:720px;height:56px;line-height:56px;border-bottom:1px #cccccc solid;text-align:center;font-size:18px;float:left;}
+.inquiryStop .is_top input[type="checkbox"]{width:20px;height:20px;position:relative;top:3px;}
+.inquiryStop .is_mid{margin-left:10px;width:720px;height:250px;float:left;}
+.inquiryStop .is_mid>div{width:360px;height:250px;overflow-y:auto;float:left;}
+.inquiryStop .is_mid .reasonTitle{padding-top:4px;height:24px;line-height:24px;color:#2a9de9;clear:both;}
+.inquiryStop .is_mid .reason{padding-left:25px;clear:both;}
+.inquiryStop .is_mid .reason li{min-height:28px;line-height:28px;clear:both;}
+.inquiryStop .is_mid input[type="checkbox"]{position:relative;top:2px;}
+.inquiryStop .is_mid textarea{width:288px;height:58px;border-bottom:1px #cccccc solid !important;resize:none;border-radius:0;float:left;}
+.inquiryStop .is_btm{padding:5px 55px 0 0 ;height:32px;clear:both;}
+.inquiryStop .is_btm .btnMod1{margin-left:20px;float:right;}
+/*终止询盘 end*/
+
+/*补充询盘*/
+.inquirySuppl .titleTime,
+.inquirySuppl .titleName{margin-left:140px;color:#2a9de9;}
+.inquirySuppl .isl_left{width:539px;height:570px;border-right:1px #777777 solid;float:left;}
+.inquirySuppl .isl_right{width:539px;height:570px;float:left;}
+.inquirySuppl .addInpuiryContent{max-height:525px;overflow-y:auto;}
+.inquirySuppl .addInpuiryContent .inpuiryBoxes input{text-align:center;}
+.inquirySuppl .isl_txt{padding-top:1px;width:380px;min-height:22px;line-height:22px;color:#2a9de9;float:left;}
+.inquirySuppl .addInpuiryBottom{background:#cccccc;}
+/*补充询盘*/

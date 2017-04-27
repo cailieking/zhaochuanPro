@@ -1,0 +1,88 @@
+.singleBg{width:100%;float:left;}
+.singleBg>div{padding:16px 0 0 0;min-height:36px;line-height:36px;clear:both;position:relative;}
+.singleBg .sLabel{width:152px;height:36px;text-align:right;float:left;}
+.singleBg .sLabel .imp{color:#f00;width:16px;height:36px;text-align:center;float:right;}
+.singleBg .box1{width:188px;height:24px;float:left;}
+.singleBg .tishi1{margin:4px 0 0 40px;width:98px;float:left;}
+.singleBg input[type="radio"]{margin:10px 0 0 0;float:left;}
+.singleBg label{margin-right:60px;height:36px;float:left;}
+.singleBg .transPort{height:36px;line-height:36px;display:none;float:left;}
+.singleBg .transPort span{height:36px;float:left;}
+.singleBg .box2{width:36px;height:24px;text-align:center;float:left;}
+.singleBg .companysBg{padding-bottom:5px;width:450px;height:230px; border:2px #cccccc solid;border-radius:4px;background:#fff;position:absolute;left:360px;top:-100px; z-index:1;}
+.singleBg .companysBg .caption{height:26px;line-height:26px;text-indent:10px;clear:both;}
+.singleBg .companysBg .cListLabel{width:40px;height:23px;line-height:23px;font-weight:bold;color:#ff9933;float:left;}
+.singleBg .companysBg .cList{width:409px;float:left;}
+.singleBg .companysBg .cList li{margin-right:20px;height:23px;line-height:23px;cursor:pointer;cursor:hand;float:left;}
+.singleBg .companysBg .cList li:hover{color:#2a9de9;}
+.singleBg .tishi2{margin:4px 0 0 40px;width:252px;float:left;}
+.singleBg .shipDayBg{width:600px;height:36px;float:left;}
+.singleBg .shipDayBg .dayBoxBg{width:74px;height:34px;border:1px #cccccc solid;float:left;}
+.singleBg .dayBoxBg .dayBox{outline:none;background:#fff;border:none;padding:5px;width:50px;height:24px;text-align:center;float:left;}
+.singleBg .dayBoxBg .dayBoxBtnBg{width:10px;height:34px;border-left:1px #cccccc solid;float:right;}
+.singleBg .dayBoxBg .dayBoxBtnBg .add,
+.singleBg .dayBoxBg .dayBoxBtnBg .sub{width:10px;height:16px;line-height:16px;font-weight:bold;color:#cccccc;text-align:center;cursor:pointer;cursor:hand;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;float:left;}
+.singleBg .dayBoxBg .dayBoxBtnBg .add{border-bottom:1px #cccccc solid;}
+.singleBg .shipDayBg .dayLabel{width:30px;height:36px;line-height:36px;text-align:center;float:left}
+.singleBg .shipDayBg .dayAdd,
+.singleBg .shipDayBg .dayDel{margin-left:12px;width:36px;height:36px;line-height:36px;text-align:center;font-size:18px;font-weight:bold;cursor:pointer;cursor:hand;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;float:left;}
+.singleBg .shipDayBg .dayAdd{color:#2a9de9;}
+.singleBg .shipDayBg .dayDel{color:#f00;}
+.singleBg .midLine{width:30px;height:36px;line-height:36px;text-align:center;color:#cccccc;font-weight:bold;font-size:22px;float:left;}
+.singleBg .shipPriceBg{padding-top:15px;padding-bottom:15px;height:32px;float:left;}
+.singleBg .shipPriceBg span{padding:0 10px;height:32px;line-height:32px;float:left;}
+.singleBg .shipPriceBg .pBox{margin-right:30px;width:58px;height:20px;text-align:center;float:left;}
+.singleBg .shipPriceBg .pBox:last-child{margin-right:10px;}
+.singleBg .tishi3{margin:4px 0 0 30px;width:170px;float:left;}
+.singleBg .tishi4{margin:4px 0 0 0;width:177px;float:left;}
+.singleBg .additional{padding-left:60px;min-height:80px;clear:both;}
+.singleBg .additional .w1{width:110px;height:30px;float:left;}
+.singleBg .additional .w2{width:110px;height:30px;float:left;}
+.singleBg .additional .w3{width:280px;height:30px;float:left;}
+.singleBg .additional .w4{width:110px;height:30px;float:left;}
+.singleBg .additional .w5{width:110px;height:30px;float:left;}
+.singleBg .additional .w6{width:80px;height:30px;float:left;}
+.singleBg .additional .gridTopBg{width:100%;height:30px;line-height:30px;text-align:center;clear:both;}
+.singleBg .additional .gridRow{padding:4px 0;width:100%;height:30px;text-align:center;clear:both;}
+.singleBg .additional select{display:inline-block;*display:inline;*zoom:1;width:70px;height:29px;}
+.singleBg .additional .w3 .priceData{height:25px; line-height:25px;display:inline-block;*display:inline;*zoom:1;}
+.singleBg .additional .w3 span{padding:0 5px;display:inline-block;*display:inline;*zoom:1;}
+.singleBg .additional .w3 input[type="text"]{width:44px;height:25px;display:inline-block;*display:inline;*zoom:1;}
+.singleBg .additional .w4 input[type="text"]{width:66px;height:25px;display:inline-block;*display:inline;*zoom:1;}
+.singleBg .additional .w6>div{display:inline-block;*display:inline;*zoom:1;}
+.singleBg textarea{resize:none;width:598px;height:60px;float:left;}
+.singleBg .singleBottom{padding:20px 246px 20px 0;}
+.singleBg .singleBottom .btnMod1{margin-left:30px;float:right;}
+
+.batchBg{margin-left:19px;width:980px;display:none;float:left;}
+.batchBg .rLayoutLabel{padding-left:25px;}
+.batchBg .bg1{width:100%;border-bottom:1px #cccccc solid;float:left;}
+.batchBg .bg2{width:100%;float:left;}
+.batchBg .bLine{padding:10px 0 10px 0;min-height:36px;line-height:36px;clear:both;}
+.batchBg .bLabel{padding-right:5px;width:95px;height:34px;line-height:34px;text-align:right;float:left;}
+.batchBg .bTishi{margin:15px 0 15px 100px;width:428px;float:left;}
+.batchBg .bBtn{width:118px;height:34px;float:left;}
+.batchBg .shipFileData{height:34px;display:none;color:#2a9de9;float:left;}
+.batchBg .shipFileData .fileName{margin-right:30px;height:34px;float:left;}
+.batchBg .shipFileData .fileDel{width:40px;height:34px;text-align:center;cursor:pointer;cursor:hand;float:left;}
+.batchBg .batchBottom{padding:20px 449px 20px 0;height:30px;clear:both;}
+.batchBg .batchBottom .btnMod1{float:right;}
+
+
+.batchBg2{margin-left:19px;width:980px;display:none;float:left;}
+.batchBg2 .rLayoutLabel{padding-left:25px;}
+.batchBg2 .bg1{width:100%;border-bottom:1px #cccccc solid;float:left;}
+.batchBg2 .bg2{width:100%;float:left;}
+.batchBg2 .bLine{padding:10px 0 10px 0;min-height:36px;line-height:36px;clear:both;}
+.batchBg2 .bLine2{padding:10px 0 10px 0;min-height:36px;line-height:36px;clear:both;}
+.batchBg2 .bLabel{padding-right:5px;width:95px;height:34px;line-height:34px;text-align:right;float:left;}
+.batchBg2 .bTishi{margin:15px 0 15px 100px;width:428px;float:left;}
+.batchBg2 .bBtn{width:118px;height:34px;float:left;}
+.batchBg2 .shipFileData2{height:34px;display:none;color:#2a9de9;float:left;}
+.batchBg2 .shipFileData2 .fileName{margin-right:30px;height:34px;float:left;}
+.batchBg2 .shipFileData2 .fileDel{width:40px;height:34px;text-align:center;cursor:pointer;cursor:hand;float:left;}
+.batchBg2 .batchBottom2{padding:20px 449px 20px 0;height:30px;clear:both;}
+.batchBg2 .batchBottom2 .btnMod1{float:right;}
+
+input.modTextBox{height:34px !important;}
+.gridRow input{height:30px !important;}

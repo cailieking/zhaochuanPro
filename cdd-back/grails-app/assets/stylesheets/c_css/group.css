@@ -1,0 +1,57 @@
+.groupRoot{height:20px; clear:both;}
+#group_tree{padding-left:24px;}
+
+.groupBoss{padding-left:50px;color:#2a9de9;height:24px;clear:both;}
+.groupList{width:706px;margin-left:20px;float:left;}
+.groupList li{margin:1px 0;width:704px;height:28px;line-height:28px;border:1px #d7d7d7 solid;border-radius:2px;float:left;}
+.groupList .name{color:#2a9de9;padding-left:15px;cursor:pointer;cursor:hand;float:left;}
+.groupList .num{color:#000;padding-right:15px;float:right;}
+
+.addGroupDlg,
+.editGroupDlg{width:380px;height:260px;}
+.addMemberDlg,
+.editMemberDlg{width:380px;height:540px;}
+.addMemberDlg .btnMod1,
+.editMemberDlg .btnMod1{padding-left:15px;padding-right:15px;}
+.addMemberDlg .editList,
+.editMemberDlg .editList{max-height:490px;overflow-y:auto;position:relative;}
+.shipLineBg{width:220px;min-height:28px;float:left;}
+.shipLineBg .b_btn{margin-top:4px;width:18px;height:18px;background:#2a9de9;color:#fff;font-weight:bold;font-size:18px;line-height:16px;text-align:center;cursor:pointer;cursor:hand;float:left;}
+.shipLineBg .lineList{margin:0 padding:0;width:100%;float:left;}
+.shipLineBg .lineList li{width:100%;height:28px;float:left;}
+.shipLineBg .lineList .lineName{width:160px;height:28px;line-height:28px;color:#2a9de9;float:left;}
+.shipLinesBg{width:318px;height:358px;background:#fff;border:1px #d7d7d7 solid;position:absolute;top:20px;left:30px;display:none;}
+.shipLinesBg .linesList{width:100%;max-height:318px;overflow-y:auto;float:left;}
+.shipLinesBg .linesList li{height:28px;clear:both;}
+.shipLinesBg .linesList input[type="checkbox"]{margin:6px 0 0 15px;width:16px;height:16px;float:left;}
+.shipLinesBg .linesList span{margin-left:15px;height:28px;line-height:28px;float:left;}
+.shipLinesBg .btnsBg{width:100%;height:30px;float:left;}
+.shipLinesBg .btnsBg .btnMod1{padding-left:10px;padding-right:10px;margin-left:15px;float:left;}
+
+form  label.error, label.error {
+    color: red;
+    font-style: italic;
+}
+
+
+#dp_tree {
+    background: #f0f6e4 none repeat scroll 0 0;
+    border: 1px solid #617775;
+    height: 160px;
+    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    width: 320px;
+}
+
+#jt_tree {
+    background: #f0f6e4 none repeat scroll 0 0;
+    border: 1px solid #617775;
+    height: 160px;
+    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    width: 320px;
+}
+
+

@@ -1,0 +1,50 @@
+/*resets*/
+body{font-family:"Microsoft YaHei";font-size:13px;background:#fff;}
+*{padding:0px;margin:0px;}
+ul,li{list-style:none;}
+a{text-decoration:none;cursor:pointer;cursor:hand;}
+/*resets end*/
+
+@font-face {font-family:fzltcxjt;src: url('../fonts/fzltcxjt.TTF');}
+@font-face {font-family:fzktjt;src: url('../fonts/fzktjt.TTF'); }
+
+.blue{color:#169BD5;}
+.red{color:#FF0000;}
+.hand{cursor:pointer;cursor:hand;}
+
+.child_content{padding-left:30px;min-width:1040px;float:left;}
+.child_top{width:978px;height:25px;line-height:25px; background:#e4e4e4;border-radius:4px;float:left;}
+.child_top .link{cursor:pointer;cursor:hand;float:left;}
+.child_top .link:hover{text-decoration:underline;}
+.child_top .link:first-child{margin-left:5px;}
+.child_top .cur{float:left;}
+.child_nav{margin:11px 0 18px 0;width:978px;height:28px;line-height:28px;text-align:center;float:left;}
+.child_nav li{margin-right:6px;width:158px;height:28px;background:#e4e4e4;cursor:pointer;cursor:hand;float:left;}
+.child_nav li:last-child{margin-right:0;}
+.child_nav .sel{background:#000;color:#fff;}
+.child_oper{margin:6px 0;width:978px;height:25px;float:left;}
+.child_oper .left{height:25px;float:left;}
+.child_oper .left button{padding:0 5px;height:25px;margin-right:5px;float:left;}
+.child_oper .right{height:25px;float:right;}
+.child_oper .right button{padding:0 5px;height:25px;margin-left:5px;float:left;}
+.child_table{width:977px;border-style:solid;border-color:#797979;border-width:1px 0px 0px 1px;float:left;}
+.child_table .td{border-style:solid;border-color:#797979;border-width:0px 1px 1px 0px;display:table;text-align:center;float:left;}
+.child_table .th{width:977px;height:30px;float:left;}
+.child_table .th .td{height:29px;line-height:29px;}
+.child_table .tr{width:977px;float:left;}
+.child_table .vertMidBg{line-height:0;display:table-cell;vertical-align:middle;}
+.child_table .checksAll,
+.child_table .check{width:16px;height:16px;}
+.child_table .operBtn{color:#169BD5;cursor:pointer;cursor:hand;line-height:32px;}
+.child_table .operBtn:hover{text-decoration:underline;}
+.child_table .infoList li{height:26px;line-height:26px;text-align:left;float:left;}
+.child_table .infoList .w50{width:50%;}
+.child_table .infoList .w100{width:100%;}
+.child_table .infoList .clabel{width:70px;height:26px;float:left;}
+.child_table .infoList .txt{height:26px;float:left;}
+
+.alertBg0{width:100%;height:100%;position:absolute;top:0;left:0;}
+
+.showImage{position:fixed;top:0;left:0;z-index:1;}
+
+

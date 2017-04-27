@@ -1,0 +1,36 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require multi-select
+*= require_self
+*/
+.multipleSelector {
+	float: left;
+}
+
+.selectorBtnGroup {
+	float: left;
+    margin: 0 10px;
+    position: relative;
+    top: 20px;
+    width: 42px;
+}
+
+.selectorBtn {
+	border-radius: 20px;
+    float: left;
+    padding: 0 10px;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.selectorBtn:first-child {
+	margin-bottom: 10px;
+}
+
