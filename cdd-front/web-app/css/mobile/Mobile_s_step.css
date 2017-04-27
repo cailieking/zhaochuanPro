@@ -1,0 +1,86 @@
+*html { background-image:url(about:blank); background-attachment:fixed; }
+
+body { font-family:"微软雅黑"; font-size:12px; color:#333; }
+p{ margin:0; padding:0; }
+a{ color:#333; text-decoration:none;}
+a:hover{ text-decoration:underline;}
+.father{position: relative;}
+#citydiv{position: absolute;top:-60px; display: none; z-index: 1000;width:100%;max-width:768px} 
+/*left:10px;*/
+.Ddz{background: #fff; border:1px solid #448aca;}
+/*width:580px;*/
+.Ddz .title{ height:31px; border-bottom:1px solid #ddd; line-height:31px;}
+.Ddz .title a{ float:right; width:31px; height:31px; background:url(/images/register/pic_admin_dzx.png) no-repeat 0 0;}
+.Ddz .p1{  height:45px; line-height:22px;}
+/*padding-left:20px;*/
+.Ddz .p1 a{ display:inline-block; width:50px; height:22px; line-height:22px; text-align:center; color:#06c;}
+.Ddz .p1 a:hover{background:#08d; color:#fff;}
+.Ddz .p1 b{ margin-right:5px; color:#f90;}
+.Ddz .p1 .on{ background:#08d; color:#fff;}
+.Ddz .p2{ margin:0 8px 10px; padding:8px; border:1px solid #eee; }
+/* width:548px; line-height:24px; */
+.Ddz .p2 a{ display:inline-block; width:auto; margin:5px 5px 5px 0; padding:0 3px; text-align:center;}
+.Ddz .p2 a:hover{background:#08d; color:#fff;}
+.Ddz .p2 .on{ background:#08d; color:#fff;}
+input {vertical-align:middle;}
+element.style {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+li .text_1 {
+   /*  background: #fff none repeat scroll 0 0; */
+    border: medium none;
+    border-radius: 5px;
+    color: #000;
+    /* float: left; */
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    outline: medium none;
+    padding: 2px 5px;
+ /*    width: 350px; */
+    line-height: 40px;
+    margin: 0 auto;
+    width:70%;
+    width: 85%;
+    max-width: 450px;
+}
+li .s {
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 22px;
+    text-align: right;
+}
+#huodai {
+    vertical-align: middle;
+}
+select {
+	 border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    margin: 5px 0;
+	opacity: 0.7;
+	width:85%;
+	height:40px;
+	max-width: 450px
+}
+#line{
+	background: #fff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: #000;
+    float: left;
+    font-size: 14px;
+  /*   height: 36px; */
+    line-height: 36px;
+    outline: medium none;
+    padding: 2px 5px;
+  
+    max-width:345px
+}
+.lable_line {
+	padding-right:50px;
+}
+/* * { padding: 0; margin: 5px 0; } */

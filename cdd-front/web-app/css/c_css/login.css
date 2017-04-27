@@ -1,0 +1,19 @@
+.loginBg0{width:100%;min-width:1200px;height:540px;background:#9acced;float:left;}
+.loginBg{height:540px;background:url(/images/c_images/login/login_bg.png) no-repeat left center;}
+.login{margin:65px 20px 0 0;width:310px;height:390px;background:#fff;float:right;}
+.login .title{width:100%;height:53px;line-height:53px;font-size:18px;color:#212121;text-align:center;border-bottom:1px #b0b0b0 solid;float:left;}
+.login .error{margin-left:18px;width:258px; height:24px; line-height:24px;color:#f00;float:left;}
+.login .boxes{margin:15px 0 0 18px;padding:0 8px;width:258px;height:87px;border:1px #b0b0b0 solid;float:left;}
+.login .boxbg{padding-left:30px; margin-top:8px;width:228px;height:35px;background-position:7px center;background-repeat:no-repeat;float:left;}
+.login .account{background-image:url(/images/c_images/login/login_actIcon.png);border-bottom:1px #b0b0b0 solid;}
+.login .password{background-image:url(/images/c_images/login/login_pwdIcon.png);}
+.login .box{border:none;outline:none;width:100%;height:35px;line-height:35px;float:left;}
+.login .forgetBg{padding:9px 0;margin-left:18px;width:274px;height:18px;line-height:18px;font-size:13px;float:left;}
+.login .check{width:18px;height:18px;float:left;}
+.login label{height:18px;color:#444444;float:left;}
+.login .forget{height:18px;color:#1f6cd4;cursor:pointer;float:right;}
+.login .loginBtn{margin:25px 0 25px 18px;width:274px;height:42px;line-height:42px;background:#3891cb;text-align:center;color:#fff;cursor:pointer;float:left;}
+.login .registerBg{margin:8px 0 0 18px;width:274px;height:62px;float:left;}
+.login .thirdlogin{width:102px;height:62px;line-height:22px;color:#444444;font-size:13px;float:left;}
+.login .qqIcon{width:60px;height:60px;border:1px #b0b0b0 solid;border-radius:32px;background:url(/images/c_images/login/login_qqIcon.png) no-repeat center center;cursor:pointer;float:left;}
+.login .c_register{height:22px;line-height:22px;color:#1f6cd4;text-align:right;cursor:pointer;float:right;}

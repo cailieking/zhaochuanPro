@@ -1,0 +1,38 @@
+.main{
+	margin-top: 0px;
+	clear: both;
+	/*background: #f8f8f8;*/
+}
+.enter {
+	margin: 20px auto;
+	width: 1200px;
+	clear: both;
+}
+
+.tools_nav {border-bottom: 1px solid #568cce; margin: 22px auto 30px;*zoom:1;height:30px;width:100%;}
+.tools_nav ul {margin: 0 auto -1px auto; position: relative;width:980px;}
+.tools_nav li {float: left; height: 29px; padding: 1px; margin-right: 1px;}
+.tools_nav li a {float: left; height: 29px; line-height: 29px; min-width: 85px; _width: 85px; padding: 0 12px; white-space: nowrap; color: #464646; font-family: Microsoft YaHei; font-size: 14px; text-align: center;}
+.tools_nav li a:hover {color: #127ddf; text-decoration: none;}
+.tools_nav li span {float: left; height: 29px; line-height: 29px; padding: 0 30px; white-space: nowrap; color: #127ddf; font-family: Microsoft YaHei; font-size: 14px; text-align: center;}
+.tools_nav li.current {border: 1px solid #568cce; border-bottom-color: #fff; padding: 0;}
+.tools_nav li.current a {color: #127ddf;}
+
+
+.currency_table{border:1px solid #ddd;border-collapse:collapse;background:#fff;font-size:12px;}
+.currency_table td{padding:0 5px}
+tr.currency_tr{background-color:#efefef}
+
+.tool_dangerousmarks{font-size:12px;color: #333;}
+.tool_dangerousmarks table{border-collapse: collapse;border: 1px solid #ddd;}
+.tool_dangerousmarks td{padding:5px;}
+.tool_dangerousmarks td strong{font-weight:400;}
+
+#Table3 thead th{border-bottom:1px solid #E8E8E8;padding:0 0 0 15px;font-weight:400;text-align:left;height:38px;margin:10px 0 0}
+#Table3 tbody td{height:36px;padding:0 0 0 15px;border-bottom:1px dashed #E8E8E8;font-size:12px;}
+
+
+.exchange{font-size:14px;line-height:30px;padding:10px;background-color:#fff;width:377px;margin:auto;}
+.exchange input{border: 1px solid #c1c1c1;}
+.exchange p{text-indent:2em;word-break:break-word;line-height:1.7;font-size:16px;margin-bottom:30px}
+input.buttonface{background-color:#FF7766;color:#fff;border:none;padding:10px 50px;border-radius:3px;text-align:center;cursor:pointer}

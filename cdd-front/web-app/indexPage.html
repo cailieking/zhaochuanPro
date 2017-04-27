@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>货代平台,国际货代,找船网,zhaochuan.cn,免费帮您找好船</title>
+    <meta name="keywords" content="货代平台,国际货代,货代,海运,在线订舱,集装箱海运,深圳货代公司,国际货运代理,深圳海运代理,海运查询">
+    <meta name="description" content="找船网是专门为中小型进出口企业与国际航运企业买卖双方提供在线交易服务的B2B平台,本着“免费帮货主找好船”的原则，充分发挥互联网平台在国际航运交易中的作用,通过整合国际航运行业贸易链条，降低贸易成本，并结合大数据监测，为国际航运行业创造良性的产业生态环境。">
+    <link rel="stylesheet" type="text/css" href="/css/c_css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/c_css/index.css">
+    <script src="/js/c_js/jquery.js"></script>
+    <script src="/js/c_js/common.js"></script>
+    <script src="/js/c_js/searchbox.js"></script>
+    <script src="/js/c_js/index.js"></script>
+</head>
+<body>
+
+
+<div class="contentBg0">
+	<!--顶部图片-->
+	<div class="index_bannerBg0">
+    	<div class="index_bannerBg md1200">
+        	<ul class="list">
+            	<li>
+                	<div class="label">起始港</div>
+                    <input id="start_port_input" class="box" type="text" />
+                </li>
+                <li>
+                	<div class="label">目的港</div>
+                    <input id="dest_port_input" class="box" type="text" />
+                </li>
+                <input id="s_company_input" type="text" style="display:none;" />
+                <li id="port_search_btn" data-type="index" class="btn">查&nbsp;&nbsp;&nbsp;&nbsp;询</li>
+            </ul>
+            <ul class="toggle-box">
+            </ul>
+            <a target="_blank" href="#" class="newsTxt"></a>
+    	</div>
+    </div>
+    <!--顶部图片 end-->
+    <!--运价信息-->
+    <div class="index_shipping md1200">
+    	<div class="left">
+        	<div class="title">运价信息</div>
+        	<a href="/show/4.html" target="_blank"><img class="image" src="/images/c_images/index/index_shippingLeftImage.jpg" /></a>
+        </div>
+        <div class="right">
+        	<ul id="index_shippingList" class="index_shippingList">
+            	<!--<li>
+                	<div class="trText">HOT</div>
+                    <div class="startPort">SHENZHEN</div>
+                    <div class="endPort">NEW YORK</div>
+                    <div class="type">
+                    	<div>20GP</div>
+                        <div>40GP</div>
+                        <div>40HQ</div>
+                    </div>
+                    <div class="price">
+                    	<div>$75</div>
+                        <div>$100</div>
+                        <div>$100</div>
+                    </div>
+                    <div class="details">查看详情</div>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+    <!--运价信息 end-->
+    
+    <!--分隔条_图片-->
+    <div class="index_separateBg0" style="height:20px;">
+    	<!--<ul class="imagesList md1200">
+        	<li style="background:url(/images/c_images/index/index_separateImage1.png);"></li>
+            <li style="background:url(/images/c_images/index/index_separateImage2.png);"></li>
+            <li style="background:url(/images/c_images/index/index_separateImage3.png);"></li>
+            <li style="background:url(/images/c_images/index/index_separateImage4.png);"></li>
+            <li style="background:url(/images/c_images/index/index_separateImage5.png);"></li>
+        </ul>-->
+    </div>
+    <!--分隔条_图片 end-->
+    
+    <!--货盘信息-->
+    <div class="index_freight md1200">
+    	<div class="left">
+        	<div class="title">货盘信息</div>
+        	<div class="image"></div>
+        </div>
+        <div id="freightRight" class="right">
+        	<div class="tabsBg">
+            	<ul id="freightTabs" class="tabList">
+                	<li class="sel">家具</li>
+                    <li>建材</li>
+                    <li>服装</li>
+                    <li>拼箱</li>
+                </ul>
+                <a href="/pallet.html" target="_blank" class="more">更多货盘</a>
+            </div>
+            <ul id="index_freightList0" class="index_freightList">
+                <!--<li>
+                	<div class="startPort">SHENZHEN</div>
+                    <div class="endPort">MEIGUO</div>
+                    <div class="column3">HOT</div>
+                    <div class="column4">家具</div>
+                    <div class="column5">20GP*2</div>
+                    <div class="details">查看详情</div>
+                </li>-->
+            </ul>
+            <ul id="index_freightList1" class="index_freightList" style="display:none;">
+                
+            </ul>
+            <ul id="index_freightList2" class="index_freightList" style="display:none;">
+                
+            </ul>
+            <ul id="index_freightList3" class="index_freightList" style="display:none;">
+                
+            </ul>
+        </div>
+    </div>
+    <!--货盘信息 end-->
+    
+    <!--分隔条_交易信息-->
+    <div class="index_separateBg0" style="height:20px;overflow:hidden;">
+    	<div class="businessBg md1200">
+        	<ul id="indexBusinessList0" class="businessList" style="top:10px;">
+            	<!--<li>
+                	<div>Panda1</div>
+                    <div>SHENZHEN( 蛇口）——MEIGUO，交易成功</div>
+                    <div>01-28</div>
+                    <div class="btn">订单摘要</div>
+                </li>
+                <li>
+                	<div>Panda2</div>
+                    <div>正在洽谈中......</div>
+                    <div>01-28</div>
+                    <div class="btn">交易状态</div>
+                </li>-->
+            </ul>
+            <ul id="indexBusinessList1" class="businessList" style="top:50px;">
+            	
+            </ul>
+            <ul id="indexBusinessList2" class="businessList" style="display:none;top:10px;">
+            	
+            </ul>
+            <ul id="indexBusinessList3" class="businessList" style="display:none;top:50px;">
+            	
+            </ul>
+        </div>
+    </div>
+    <!--分隔条_交易信息 end-->
+    
+    <!--资讯动态-->
+    <div class="index_news md1200">
+    	<div class="left">
+        	<div class="title">资讯动态</div>
+        	<div class="imageBg">
+            	<a target="_blank"><div class="image"></div></a>
+            	<div class="leftBtn" style="display:none;"></div>
+                <div class="rightBtn" style="display:none;"></div>
+                <div class="txtBg" style="height:auto;">
+                	<a target="_blank">
+                	<div class="msg" style="padding-bottom:8px;text-align:center;height:auto;text-indent:0;"></div>
+                    <div class="name" style="display:none;"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+        	<div class="news">
+            	<div class="top">
+                	<a id="more_ftlist_title" class="title">外贸信息</a>
+                    <a id="more_ftlist" class="more">更多</a>
+                </div>
+                <ul id="indexNewsList0" class="newsList">
+                	<li>
+                    	<!--<a target="_blank" href="#" class="msg">世界经济或明年二次探底，新兴市场</a>
+                        <div class="time">10-25</div>-->
+                    </li>
+                </ul>
+            </div>
+            <div class="news">
+            	<div class="top">
+                	<a id="more_tplist_title" class="title">运输动态</a>
+                    <a id="more_tplist" class="more">更多</a>
+                </div>
+                <ul id="indexNewsList1" class="newsList">
+                	
+                </ul>
+            </div>
+            <div class="news">
+            	<div class="top">
+                	<a id="more_comlist_title" class="title">公司新闻</a>
+                    <a id="more_comlist" class="more">更多</a>
+                </div>
+                <ul id="indexNewsList2" class="newsList">
+                	
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--资讯动态 end-->
+    
+    <!--分隔条-->
+    <div class="index_separateBg0" style="height:20px;">
+    </div>
+    <!--分隔条 end-->
+    
+    <!--合作伙伴-->
+    <div class="index_partner md1200">
+    	<div class="title">合作伙伴：</div>
+        <ul class="partnerList">
+        	
+        </ul>
+    </div>
+    <!--合作伙伴 end-->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>关于我们 - 找船网</title>
+<meta name="keywords" content="货代平台,国际货代,在线订舱,集装箱海运,特种柜海运,国际集装箱货运,海运货代,国际货运代理,深圳海运代理,深圳货代公司,海运费查询,平板柜海运,最新运价信息,船多多,找船网,深圳市找船网络科技有限公司">
+<meta name="description" content="找船网">
+<!--<link rel="stylesheet" type="text/css" href="/css/common.css">-->
+<link rel="stylesheet" type="text/css" href="/css/c_css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/dialog.css">
+<link rel="stylesheet" type="text/css" href="/css/news/news.css">
+<link rel="stylesheet" type="text/css" href="/css/info/info.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/js.js"></script>
+<!--<script src="/js/common.js"></script>-->
+<script src="/js/c_js/common.js"></script>
+<script src="/js/dialog.js"></script>
+<body>
+	<div class="main">
+		<div class="enter">
+			<div class="left01" style="top: 0px;">
+				<p class="left_title">走进找船网</p>
+				<ul class="left_nav">
+					<li class="first"><a class="active" href="/about.html">关于我们</a></li>
+					<li><a href="/fankui.html">意见反馈</a></li>
+					<li><a href="/law.html">法律声明</a></li>
+					<li><a href="/job.html">诚聘英才</a></li>
+					<li><a href="/contact.html">联系我们</a></li>
+					<li><a href="/ceo_mailbox.html">CEO邮箱</a></li>
+				</ul>
+			</div>
+			<div class="r01">
+				<div class="title01"><div class="mark_line01"></div>关于我们的公司</div>
+				<div class="content01">
+					<p class="bigger">我们是做什么的？</p>
+					<p style="text-indent:2em;">深圳市找船网络科技有限公司专门为中小型出口企业提供国际物流供应链综合服务，找船网是旗下的在线交易及供应链B2B服务平台，致力于打造成全球最大国际物流供应链综合服务商。公司努力创造客户认可的有价值的服务，通过为进出口企业提供更加省时，省力，省钱的物流管家服务，帮助企业在进出口供应链的各个环节创造出更多的价值，努力成为企业身边不可缺少的外贸服务商。找船网的创始团队成员均来自国内著名B2B电商平台、知名船公司以及专业的供应链管理公司，成立之初就已获得国内知名基金公司投资。</p>
+					<p class="bigger">我们的宗旨</p>
+					<p style="text-indent:2em;">找船网尊崇客户第一，团队第二，股东第三的宗旨。本着<span style="color:#00a0e9">“共赢，迅达”</span>的原则，通过平台帮助货主找到更具性价比的服务商，充分发挥互联网平台在国际航运交易中的作用。通过整合国际航运行业贸易链条，降低贸易成本，并结合大数据监测，为国际航运行业提供良性的产业生态环境。</p>
+					<p class="bigger">我们的价值观</p>
+					<p style="text-indent:2em;"><span style="color:#00a0e9">"诚信，客户，应变，坚持"</span>是公司的核心价值观;</p>
+					<p style="text-indent:2em;"><span style="color:#00a0e9">"激情，梦想，责任，担当"</span>是公司的企业精神;</p>
+					<p style="text-indent:2em;"><span style="color:#00a0e9">"德才兼备，人尽其才"</span>是公司的用人标准。</p>
+				</div>
+				
+				<div  class="content01" style="text-align:center; width:800px; height:60px;"><p><img  src="/images/help/kaohao.png"　alt="找船网"></p></div>
+			</div>
+			<div class="up_top"><a></a></div>
+		</div>
+	</div>
+	<div class="helppage needtop needsearch"></div>
+<script type="text/javascript">
+$(function(){
+	addRightQQ();//添加右侧的QQ联系UI
+	addZcTopUI(-2);//添加找船网公用顶部UI
+	addZcFootUI();//添加找船网公用底部UI(有微信图片那个)
+	addZcBtmUI();//添加找船网公用底部UI(最下面黑底的那个)
+	function uptop() {
+		var win = $(window);
+		var doc = $(document);
+		win.scroll(function() {
+			if (doc.scrollTop() >= 182) {
+				$(".up_top").fadeIn();
+			} else {
+				$(".up_top").fadeOut();
+			}
+		});
+		$(".up_top").click(function() {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 600);
+		});
+	}
+	uptop();
+	function leftfixed(){
+		var $left01 = $(".left01");
+		var $new_top = $("#new_top");
+		var $new_logo = $("#new_logo");
+		var $new_nav = $("#new_nav");
+		var $foot_out = $(".foot_out");
+		var $r01 = $(".r01");
+		var t=$left01.offset().top;
+		if($(window).scrollTop() > t){
+			$left01.addClass('fixed');
+		}else{
+			$left01.removeClass('fixed');
+		}
+		$(window).scroll(function(){
+			var h1=$new_top.height()+$new_logo.height()+$new_nav.height()+20;
+			var h2=$foot_out.height()+20;
+			var h3= $left01.height();
+			var h4=$r01.height();
+			if($(window).scrollTop() > t){
+				$left01.addClass('fixed');
+			}else{
+				$left01.removeClass('fixed');
+			}
+			if($(window).scrollTop()-h1>h4-h3){
+				$left01.css({'bottom':h2,'top':-(($(window).scrollTop()-h1)-(h4-h3))});
+			}else{
+				$left01.css({'bottom':'','top':0});
+			}
+		});
+	}
+	leftfixed();
+});
+</script>
+</body>
+</html>

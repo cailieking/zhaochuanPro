@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: http://www.zhao-chuan.com/sitemap.xml
+Sitemap: http://www.zhao-chuan.com/sitemap.html

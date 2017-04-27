@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>国际物流供应链|国际货代|海运平台|在线订舱|船期查询-深圳找船网</title>
+    <meta name="keywords" content="国际海运平台,深圳货代公司,在线订舱,深圳国际货运,集装箱海运,货运代理,海运查询，国际物流供应链">
+    <meta name="description" content="找船网是一家为中小型出口企业提供国际物流供应链综合服务B2B平台，提供在线订舱、国际货运、集装箱海运、货运代理、海运查询，货运险等服务【咨询热线：400-8755-156】">
+    
+<!--<link rel="stylesheet" type="text/css" href="/css/common.css">-->
+<link rel="stylesheet" type="text/css" href="/css/c_css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/dialog.css">
+<link rel="stylesheet" type="text/css" href="/css/news/news.css">
+<link rel="stylesheet" type="text/css" href="css/info/info.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/js.js"></script>
+<!--<script src="/js/common.js"></script>-->
+<script src="/js/c_js/common.js"></script>
+<script src="/js/dialog.js"></script>
+<body>
+	<div class="main">
+		<div class="enter">
+			<div class="left01" style="top:0px;height:480px;">
+				<p class="left_title">走进找船网</p>
+				<ul class="left_nav">
+					<li class="first"><a href="/about.html">关于我们</a></li>
+					<li><a href="/fankui.html">意见反馈</a></li>
+					<li><a href="/law.html">法律声明</a></li>
+					<li><a href="/job.html">诚聘英才</a></li>
+					<li><a href="/contact.html">联系我们</a></li>
+					<li><a class="active" href="/ceo_mailbox.html">CEO邮箱</a></li>
+				</ul>
+			</div>
+			<div class="r01">
+				<div class="title01"><div class="mark_line01"></div>CEO邮箱</div>
+				<div class="content01">
+					<p class="noindent">亲爱的用户：</p>
+					<p style="text-indent:2em;">为了让找船网能够更好地服务于广大的用户，为了更好地倾听来自用户的声音，我们特别开通了CEO邮箱，希望能够搭建一条您与找船网直接沟通的绿色通道。</p>
+					<p style="text-indent:2em;">如果您在使用找船网的过程中遇到问题，以及给您交易带来的不便，您对找船网有任何建议，或使用中遇到问题，投诉、举报或纠纷处理，可直接写信给我们CEO。所有意见建议和投诉均直接发送至我们的管理层的邮箱。</p>
+					<p style="text-indent:2em;">请您将需要找船网处理的内容在邮件中描述清楚，我们在收到您的邮件后会尽快为您处理。</p>
+					<p style="text-indent:2em;">点击：<a href="mailto:ceo@zhao-chuan.com">ceo@zhao-chuan.com</a></p>
+				</div>
+			</div>
+			<div class="up_top"><a></a></div>
+		</div>
+	</div>
+	<div class="helppage needtop needsearch"></div>
+<script type="text/javascript">
+$(function(){
+	addRightQQ();//添加右侧的QQ联系UI
+	addZcTopUI(-2);//添加找船网公用顶部UI
+	addZcFootUI();//添加找船网公用底部UI(有微信图片那个)
+	addZcBtmUI();//添加找船网公用底部UI(最下面黑底的那个)
+	function uptop() {
+		var win = $(window);
+		var doc = $(document);
+		win.scroll(function() {
+			if (doc.scrollTop() >= 182) {
+				$(".up_top").fadeIn();
+			} else {
+				$(".up_top").fadeOut();
+			}
+		});
+		$(".up_top").click(function() {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 600);
+		});
+	}
+	uptop();
+	function leftfixed(){
+		var $left01 = $(".left01");
+		var $new_top = $("#new_top");
+		var $new_logo = $("#new_logo");
+		var $new_nav = $("#new_nav");
+		var $foot_out = $(".foot_out");
+		var $r01 = $(".r01");
+		var t=$left01.offset().top;
+		if($(window).scrollTop() > t){
+			$left01.addClass('fixed');
+		}else{
+			$left01.removeClass('fixed');
+		}
+		$(window).scroll(function(){
+			var h1=$new_top.height()+$new_logo.height()+$new_nav.height()+20;
+			var h2=$foot_out.height()+20;
+			var h3= $left01.height();
+			var h4=$r01.height();
+			if($(window).scrollTop() > t){
+				$left01.addClass('fixed');
+			}else{
+				$left01.removeClass('fixed');
+			}
+			if($(window).scrollTop()-h1>h4-h3){
+				$left01.css({'bottom':h2,'top':-(($(window).scrollTop()-h1)-(h4-h3))});
+			}else{
+				$left01.css({'bottom':'','top':0});
+			}
+		});
+	}
+	leftfixed();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+#layout{
+    padding-top: 0px; 
+    max-width: 768px;
+    margin:0 auto; 
+    min-width: 320px;
+    background: url(../images/reg_bg.png) no-repeat;    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+   -moz-background-size:100% 100%;
+    background-size:100% 100%;
+    min-height:480px; 
+    text-align: center
+}
+/* #layout span{
+    display: block;
+    position: relative;
+    text-align: center;
+    height:80px;
+    line-height: 80px;
+    font-family: "Microsoft YaHei";
+    color:#fff;
+    font-size: 1.5em;;
+} */
+#layout ul li{
+    list-style: none;
+    /* margin-left:11%; */
+    position: relative;
+}
+#err_msg{
+    height:15px;
+    text-align: center;
+    color:red;
+}
+.username,.yzm, .pwd, .pwd2{
+    width:70%;
+    height:30px;
+    border-radius:4px;
+    background:#fff;
+    filter:alpha(opacity:70);
+    opacity: 0.7;
+    list-style: none;
+    margin:5px 0;
+    padding-left:50px;
+    border:1px solid #ccc;
+    max-width: 400px;
+}
+.un,.yz, .pw, .pw2{
+    position: absolute;
+    margin-top:7px;
+}
+.queren{
+    list-style: none;
+/*     margin:5px 0;
+ */    margin: 0 auto;
+    width:45%; 
+    /* margin-left:11%; */
+    height:20px;
+    position:relative;
+}
+
+#return_p {
+	margin:0 auto
+}
+.fx{
+    width:13px;
+    height:13px;
+    border:1px solid #4f7b9c;
+    float: left;
+}
+.queren p{
+    text-align: left;
+    margin-top:2px; 
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color:#0C0C0C;
+    width:200px;
+}
+.reg-btn{
+    width:100%;
+    height:30%;
+    margin-top:80px;
+}
+.submit{
+    width:70%;
+    height:35px;
+    line-height: 35px;
+    background:rgba(35,122,207,0.85);
+    border:1px solid #989898;
+    text-align: center;
+    margin:0 auto;
+    color:#fff;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    border-radius: 3px;
+    display: block;
+    max-width: 300px;
+}
+.reg-login p{
+    width:70%;
+    height:35px;
+    line-height: 35px;
+    background:#989898;
+    border:1px solid #989898;
+    text-align: center;
+    margin:15px 0 0 11%;
+    color:#fff;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    border-radius: 3px;
+    display: block;
+    max-width: 300px;
+}
+ #send{
+    position:absolute;
+    margin:5px 0 0 -107px;
+    width:107px;
+    height:34px;
+    border-radius: 3px;
+    border:1px solid #79b235;
+   /*  background:#79b235; */
+    background:#fff;
+    font-family:  "Microsoft YaHei";
+    font-size: 12px;
+    cursor: pointer;
+} 
+#submit_register{
+    width: 70%;
+    height: 35px;
+    background: #f34541;
+/*     border: 1px solid #f34541; */
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.activation{
+	background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #222222;
+    /* float: left; */
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+    padding: 0 5px;
+    text-align: center;
+    width: 118px;
+    font-size: 12px;
+    margin: 5px 0 0 -150px;
+    position: absolute;
+     width: 140px;
+}
+
+.registerRemind .remindTitle {
+    color: #fff;
+    font-size: 24px;
+    height: 48px;
+    line-height: 48px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.registerRemind {
+    clear: both;
+    margin: 0 auto;
+    padding-top: 95px;
+    max-width: 768px;
+    min-height: 480px;
+    min-width: 320px;
+    /* width: 576px; */
+}
+
+.registerRemind .remindBg {
+    border: 6px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    height: 332px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.registerRemind .label {
+    float: left;
+    line-height: 24px;
+    margin: 15px 0 10px;
+    text-indent: 8%;
+    width: 100%;
+}
+
+.registerRemind .account {
+    margin-bottom: 0;
+    /* text-indent: 204px; */
+    padding-left: 20%;
+}
+.registerRemind .passwd {
+     padding-left: 20%;
+}
+.registerRemind .btn1 {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+.registerRemind .btn1, .registerRemind .btn2 {
+    border: 2px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 196px;
+}

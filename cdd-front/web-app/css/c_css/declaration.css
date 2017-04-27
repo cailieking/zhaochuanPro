@@ -1,0 +1,99 @@
+.index_content_list {
+    float: left;
+    margin-bottom: 10px;
+    min-height: 300px;
+    width: 100%;
+}
+ul, li {
+    list-style: outside none none;
+}
+/* .index_content_list .one {
+    background: #10b3ea none repeat scroll 0 0;
+} */
+.index_content_list li {
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin: auto
+}
+ul, li {
+    list-style: outside none none;
+}
+li {
+    line-height: 20px;
+}
+.index_content_list .icon {
+    display: block;
+    height: 86px;
+    margin: 46px auto 31px;
+    width: 86px;
+}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+   /*  vertical-align: middle; */
+}
+.index_content_list .msg {
+    height: 150px;
+    line-height: 25px;
+    margin: -20px auto 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+.content > div {
+    clear: both;
+    margin: 50px auto;
+    width: 1200px;
+}
+.index_content_title {
+    color: #212121;
+    float: left;
+    font-size: 40px;
+    line-height: 84px;
+    text-align: center;
+    width: 100%;
+}
+
+p
+  {
+  	font-family:"Microsoft YaHei",Georgia,Serif;
+  	font-size: 25px;
+    margin: 48px auto;
+    width: 450px;
+}
+ 
+ 
+.index_content_buttom .msg {
+    height: 100px;
+    line-height: 25px;
+    margin: -20px auto 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 260px;
+}
+.index_content_buttom li {
+    float: left;
+    margin: auto;
+    width:300px
+}
+
+.index_content_buttom {
+    float: left;
+    margin-bottom: 10px;
+    min-height: 130px;
+    width: 100%;
+}
+
+.index_content_buttom .icon_server {
+    display: block;
+    margin: auto ;
+    background: #fff
+}
+
+.span_adv {
+	font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+	font-size:25px;
+}

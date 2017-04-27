@@ -1,0 +1,19 @@
+.bargain_bannerBg0{width:100%;min-width:1200px;height:280px;background:url(/images/c_images/bargain/bannerImage.png) no-repeat center center;float:left;}
+
+.bargain_ListBg0{min-height:427px;}
+.bargain_List{padding:10px 0 60px 0;width:1200px;min-height:427px;float:left;}
+.bargain_List li{margin-left:65px;width:250px;height:427px;float:left;}
+.bargain_List .topTime{padding-top:36px;height:28px;line-height:28px;text-align:right;font-size:16px;font-weight:bold;color:#f26539;}
+.bargain_List .startPort,
+.bargain_List .endPort{width:100%;height:40px;line-height:40px;text-indent:21px;font-size:18px;font-weight:bold;color:#fff;background:#4c98e5;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;float:left;}
+.bargain_List .startPort{padding-top:16px;}
+.bargain_List .endPort{padding-bottom:16px;}
+.bargain_List .priceBg{border:1px #cfcfcf solid;border-top:0;width:248px;height:42px;line-height:42px;font-size:14px;float:left;}
+.bargain_List .priceBg .leftTxt{padding-left:6px;color:#30393d;float:left;}
+.bargain_List .priceBg .rightTxt{text-align:right;padding-right:10px;color:#f25050;float:right;}
+.bargain_List .dateBg{padding:8px 0 0 8px;width:240px;height:71px;line-height:26px;font-size:13px;color:#30393d;line-height:26px;border-left:1px #cfcfcf solid;border-right:1px #cfcfcf solid; float:left;}
+.bargain_List .dateBg .txt1{width:140px;float:left;}
+.bargain_List .dateBg .txt2{width:98px;float:left;}
+.bargain_List .dateBg .txt3{width:240px;float:left;}
+.bargain_List .sbtn{width:100%;height:40px;line-height:40px;background:#f26539;text-align:center;cursor:pointer;color:#fff;font-size:16px;font-weight:bold;float:left;}
+.bargain_List .sbtn>a{display:block;color:#fff;}

@@ -1,0 +1,121 @@
+a{
+	  text-decoration: none;
+}
+
+div.agent-resource-ctn{
+    padding-bottom: 30px;
+    padding-left:12%
+}
+div.nav{
+    margin:10px auto;
+    color:#2c2c2c;
+}
+div.nav a:link,.member-title a:link {
+    text-decoration: none;
+}
+.member-title a:hover{
+    color: #3399EE;
+}
+div.company-title .title{
+    font-size:25px;
+    color:#161617;
+}
+div.company-title .verified-icon{
+    padding-left:5px;
+    width:20px;
+    height:20px;
+}
+div.company-classification ul{
+   margin:20px auto;
+}
+div.company-classification li{
+    margin-bottom: 10px;
+}
+ul .details ,.company-brief span{
+    font-size:16px;
+    color:#4F4F4F;
+}
+
+div.company-brief{
+    padding-top:20px;
+}
+.company-brief div{
+    float:left;
+    padding-bottom:70px;
+    font-size:16px;
+    color:#4F4F4F;;
+}
+.company_brief2{
+/* 	margin-left:80px; */
+	    padding-bottom:10px;
+	font-size:16px;
+    color:#4F4F4F;
+}
+div.main-content{
+ border:1px solid #C0A9A9;
+    padding:40px;
+    width:82%;
+}
+
+div.company-logo{
+    widht:150px;
+    height:150px;
+    float:left;
+    margin-right:25px;
+}
+.first-header{
+    padding-top:25px;
+    padding-bottom:10px;
+    border-bottom: solid 2px  #3399EE;
+    font-size:20px;
+    color:#3399EE;
+}
+.consult ul{
+    list-style: none;
+    padding-top:20px;
+    margin-bottom:40px;
+}
+.member-image{
+    width:105px;
+    height:105px;
+    float:left;
+    padding-right:20px;
+}
+.member-title a{
+  font-size:20px;
+  font-weight: bold;
+  padding-right:20px;
+}
+.member-title img{
+    width:16px;
+    height:16px;
+}
+.member-title span{
+
+}
+ul.evaluate li{
+    display:inline-block;
+    margin-right:50px;
+}
+.cheng{
+    margin-left:5px;
+    color:#3399EE;
+}
+.callhim{
+  border:1px solid #3399EE	;
+  width:60px;
+  height:40px;
+  float:right;
+  margin-right:200px;
+  margin-top:30px;
+  border-radius:30px;
+  line-height:40px;
+  padding-left: 20px;
+  font-size:15px;
+}
+.callhim:hover{
+	  font-size:16px;
+	font-color:orange;
+	background:#3399EE;
+}
+

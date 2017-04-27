@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>货代平台,国际货代,找船网,zhaochuan.cn,免费帮您找好船</title>
+<meta name="keywords" content="货代平台,国际货代,在线订舱,集装箱海运,特种柜海运,国际集装箱货运,海运货代,国际货运代理,深圳海运代理,深圳货代公司,海运费查询,平板柜海运,最新运价信息,船多多,找船网,深圳市找船网络科技有限公司">
+<meta name="description" content="找船网">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="../css/module/common.min.css">
+<link rel="stylesheet" type="text/css" href="../css/module/lib_pack.css">
+<link rel="stylesheet" type="text/css" href="../css/module/ship.min.css">
+<script src="../js/module/lib_pack.js"></script>
+<script src="../js/module/common.min.js"></script>
+</head>
+     <div class="condition_area" id="condition_area">
+        <div class="filter">
+            <h2>运价查询</h2>
+            <span>（共<b id="prince_count"></b>条记录）</span>
+            <div class="selected_area">
+               已选条件：
+                <div class="selected_item" id="selected_item">
+                </div>
+            </div>
+        </div>
+        <div class="start_port_area" id="start_port_list">
+            <div class="start_port">
+            <label>起始港:</label>
+            <div class="port_select">
+               <ul class="port_select_list">
+                   <img  style="margin:10px 100px;" src="/images/ajax-loader.gif"/>  
+               </ul>
+           </div>
+            </div>
+            <div class="fuc-btn">
+                <a href="javascript:void(0)" id="start_port_more" >更多</a>
+            </div>
+        </div>
+
+        <div class="end_port_area" id="end_port_list" style="display:block;">
+              <div class="end_port"  >
+                <label>目的港:</label>
+                <div class="port_select">  
+                    <ul class="port_select_list" >
+                      <img style="margin:10px 100px;" src="/images/ajax-loader.gif"/>   
+                    </ul>
+                </div>
+              </div>
+                <div class="fuc-btn">
+                    <a href="javascript:void(0)" id="dest_port_more">更多</a>
+                </div>
+        </div>
+
+        <div class="end_port_details_area" id="end_port_list_details"  style="display:none">
+            <div class="end_port_details" >
+                <label>目的港:</label>
+                <div class="end_port_list">
+                   <div class="cate">
+                       <a href="javascript:void(0)">A</a>
+                       <a href="javascript:void(0)">B</a>
+                       <a href="javascript:void(0)">C</a>                      
+                       <a href="javascript:void(0)">D</a>
+                       <a href="javascript:void(0)">E</a>
+                       <a href="javascript:void(0)">F</a>
+                       <a href="javascript:void(0)">G</a>
+                       <a href="javascript:void(0)">H</a>
+                       <a href="javascript:void(0)">I</a>
+                       <a href="javascript:void(0)">J</a>
+                       <a href="javascript:void(0)">K</a>
+                       <a href="javascript:void(0)">L</a>
+                       <a href="javascript:void(0)">M</a>
+                       <a href="javascript:void(0)">N</a>
+                       <a href="javascript:void(0)">O</a>
+                       <a href="javascript:void(0)">P</a>
+                       <a href="javascript:void(0)">Q</a>
+                       <a href="javascript:void(0)">R</a>
+                       <a href="javascript:void(0)">S</a>
+                       <a href="javascript:void(0)">T</a>
+                       <a href="javascript:void(0)">U</a>
+                       <a href="javascript:void(0)">V</a>
+                       <a href="javascript:void(0)">W</a>
+                       <a href="javascript:void(0)">X</a>
+                       <a href="javascript:void(0)">Y</a>
+                       <a href="javascript:void(0)">Z</a>
+                   </div>
+                    <div class="service_box">
+                        <input type="text" id="dest_port_search_box" placeholder="请输入目的港名称"/>
+                    </div>
+                <div class="end_port_details_list">
+                        <ul class="list">
+                          <!-- <img style="margin:30px 300px;" src="/images/ajax-loader.gif"/> -->  
+                       
+                        <li>ADEN</li>
+                       
+                    </ul>
+                </div>
+                </div>
+            </div>
+           <div class="fuc-btn">
+               <a href="javascript:void(0)" id="end_port_details_more">收起</a>
+           </div>
+        </div>
+
+        <div id="callapse_expand_area" style="display:none" >
+
+            <!--船公司-->
+            <div class="shipping-company-area" >
+                <div class="shipping-company">
+                     <label>船公司:</label><!-- trans_type -->
+                    <div class="port_select"  >
+                     <ul class="port_select_list" id="shipCompanyList">
+                     </ul>
+                    </div>
+                </div>
+                <div class="fuc-btn">
+                    <a href="javascript:void(0)" id="ship-company-list-more">更多</a>
+                </div>
+            </div>
+            <!--价格区间-->
+             <div class="selected-price-area">
+                <label style="float:left">价格:</label>
+				
+                <select   class="cubicle-type" name="cargoBoxType" id="cargoBoxType">
+                    <option value="">请选择柜型</option>
+                    <option value="20GP">20GP</option>
+                    <option value="40GP">40GP</option>
+                    <option value="40HQ">40HQ</option>
+                </select>
+				
+                 <div  class="selected-price">
+                     <input type="text" maxlength="4" id="startPrice"/>
+                        <b style="float:left">-</b>
+                     <input type="text" maxlength="4" id="endPrice"/>
+                     <a href="javascript:void(0)" id="btn-price-ensure" >确认</a>
+                     <span class="price-input-tips"><!-- 请输入对应的货柜价格  格式不正确，请输入数字--></span>
+                 </div>
+            </div>
+        <!--货物类型-->
+          <!--<div class="validity-period"> -->
+		  <div class="validity-period">		  
+             <label>有效期:</label>
+             <!-- <div class="box" id="commodity_type">	  order_type -->
+			     <div class="box" id="validity-period">
+				        <input type="text" name="validity-period" id="expireDate"  maxlength="10"  />
+          </div>
+    </div>
+    </div>
+      </div>
+    </div>
+  
+    <div  class="fuc_area">
+        <a  href="javascript:void(0)" class="func_keys" id="filter_callapse">更多选项（运输种类，货物类型等）</a>
+    </div>
+    <div class="subtitle">成为认证公司将享受优惠VIP价格,<a class="go-verified" href= '../../member/certificate'>去认证</a></div>
+    <div id="cargo_list_ctn" style="width:1210px;border:1px solid #ddd;margin:5px auto"></div>   
+	       
+	<div class="shippage	 helppage needtop needsearch"></div>
+  <script>
+ 
+	 $(function(){
+			loadScript({
+				       url:'ship.min.js',
+				isPackNeed:true 	
+			})
+		})
+  
+  </script>
+</body>
+</html>

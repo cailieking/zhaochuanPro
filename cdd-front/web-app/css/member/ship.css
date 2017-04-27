@@ -1,0 +1,297 @@
+.content{
+	width:930px;
+	//border:1px solid red;
+	
+}
+.info_freight{
+	width:100%;
+	
+}
+.info_freight>li{
+	
+	margin-bottom:10px;
+	
+}
+.title_area{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:150px;
+	//border:1px solid red;
+	text-align:right;
+	height:30px;
+	line-height:30px;
+	margin-right:40px;
+	font-size:13px;
+	
+}
+.title_area .title{
+	color:#ff0000;
+	
+}
+.input_area{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:600px;
+	//border:1px solid red;
+	
+}
+.region{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	width:200px;
+	height:30px;
+	border:1px solid #B4B4B4;
+	text-align:center;
+	color:#333;
+	
+}
+.stopping_date,.starting_date{
+ display:inline-block;
+	*display:inline;
+	*zoom:1;
+	widht:120px;
+	
+}
+.stopping_date{
+	margin-right:25px;
+	
+}
+.minus,.addition{
+ 
+ display:inline-block;
+	*display:inline;
+	*zoom:1;
+	 width: 15px;
+ 	 height: 15px;
+  	 cursor: pointer;
+ 	 float:left;
+ 	 margin:7px 0 0 3px;  
+        }
+.minus{
+  background: url("../../images/member/minus.png") no-repeat;
+ }
+ .addition{
+   background: url("../../images/member/addition.png") no-repeat;
+
+        }
+.num_box{
+	display: inline-block;
+    *display: inline;
+    *zoom: 1;
+     width:25px;
+     height: 18px;
+    border:1px solid #ddd;
+     float:left;
+     text-align: center;
+    margin:4px 0 0 3px;  
+	
+}
+.add_shipping_date{
+	display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width:100px;
+    
+    margin-left:20px;
+    
+}
+.add_shipping_btn,.delete_shipping_btn{
+	display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width:15px;
+    height:15px;
+    background:url("../../images/member/add_shipping_date_btn.png") no-repeat;
+	position:relative;
+	top:2px;
+}
+
+.delete_shipping_btn{
+	background:url("../../images/member/delete_shipping_btn.png") no-repeat;
+	
+	
+}
+.box_price_area{
+	width:100%;
+	
+	
+}
+.box_price{
+	width:700px;
+	margin-left:145px;
+	
+	
+}
+.box_price .list{
+	float:left;
+	width:200px;
+	height:60px;
+	margin-top:10px;
+	
+	
+}
+
+.box_name,.commom_price,.special_price{
+	
+    float:left;
+    width:50px;
+    text-align:center;
+    height:25px;
+    line-height:25px;
+    margin-right:10px;
+  
+    
+	
+}
+.commom_price>input,.special_price>input{
+	 widht:50px;
+	 height:25px;
+	 border:1px solid  #b4b4b4;
+	 text-align:center;
+	
+}	
+ .release_single .other{
+	width:100%;
+	height:60px;
+	resize:none;
+	border:1px solid #b4b4b4;	
+	padding:0;
+}
+.release_single .remark{
+	width:100%;
+	height:120px;
+	resize:none;
+	border:1px solid #b4b4b4;	
+	padding:0;
+	
+}
+.btn_area{
+	width:400px;
+	height:36px;
+	margin:10px auto;
+	
+	
+}
+.btn_area>a{
+	display: inline-block;
+    *display: inline;
+    *zoom: 1;
+	width:88px;
+	height:36px;
+	margin-right:40px;
+}
+.make_sure{
+	background:url("../../images/xunjia/submit-btn.png") no-repeat;
+	
+}
+.cancel{
+	background:url("../../images/xunjia/reset-btn.png") no-repeat;
+	
+}
+.back{
+	background:url("../../images/check_back_btn_02.png") no-repeat;
+}
+
+/** start 附加费组件样式 **/ 
+.shipping-company-list{
+    width:450px;
+    border: 2px solid #ddd;
+    position: absolute;
+    left:240px;
+    top:-20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+.shipping-company-list>.list-title{
+    float: left;
+    width: 40px;
+    color: #ff9900;
+   font-size: 13px;
+    font-weight: 700;
+
+}
+.shipping-company-list>ul{
+    width:408px;
+    float: left;
+}
+.shipping-company-list>ul>li{
+    float: left;
+    width: 60px;
+    height: 22px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.shipping-company-list>ul>li:hover{
+    color:rgb(76, 201, 255);
+
+}
+/** start 附加费组件样式 **/ 
+
+.main-content{
+	    margin-top:10px;
+	    margin-left:120px;
+		width:760px;
+		font-size:13px;
+	}
+	.main-content input{
+		width:50px;
+		height:25px;
+		outline: none;
+		text-align: center;
+		border:1px solid #ddd;
+	}
+	.list-item{
+		display:inline-block;
+		*display:inline;
+		*zoom:1;
+		width:100%;
+		height:30px;
+		margin-bottom: 5px;
+	}
+	.extra-charge-item{
+		display:inline-block;
+		*display:inline;
+		*zoom:1;
+		width:90%;
+		height:100%;
+	}
+	.extra-charge-item>ul>li{
+		display:inline-block;
+		*display:inline;
+		*zoom:1;
+		width:70px;
+		margin-left:20px;
+	}
+	.extra-charge-item>ul>.box-type{
+	    width: 280px;
+		text-align:center;
+	}
+	.extra-charge-item select{
+		height:25px;
+	}
+	.box-type>span{
+		width:85px;
+		margin-left:10px;
+	}
+
+	a.item-btn{
+		padding:5px 15px;
+		text-decoration: none;
+		border:1px solid #ddd;
+		cursor: pointer;
+
+	}
+.together_style li{
+	
+	margin-bottom:10px;
+	
+}	
+	
+
+/** end 附加费组件样式 **/ 

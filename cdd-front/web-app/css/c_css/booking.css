@@ -1,0 +1,40 @@
+.booking_bannerBg0{width:100%;min-width:1200px;height:270px;background:url(/images/c_images/booking/bannerImage.png) no-repeat center center;float:left;}
+
+.booking_details,
+.booking_consult{min-height:200px;}
+.booking_details .caption{width:90px;height:100%;line-height:64px;font-size:16px;color:#212121;float:left;}
+.booking_details .right{width:970px;float:left;}
+.booking_details .num{padding-top:24px;width:960px;height:26px;line-height:26px;color:#444444;float:left;}
+.booking_details .listTitle{width:961px;height:50px;line-height:50px;color:#fff;font-size:18px;font-weight:bold;background:#3399ee url(/images/c_images/booking/arrow.png) no-repeat center center;float:left;}
+.booking_details .startPort{width:380px;float:left;text-align:right;}
+.booking_details .endPort{width:380px;float:right;text-align:left;}
+.booking_details .detailsList{width:960px;border-left:1px #e2e2e2 solid;float:left;}
+.booking_details .label{width:80px;height:40px;line-height:40px;color:#777777;text-align:right;float:left;}
+.booking_details .detailsList li{border-right:1px #e2e2e2 solid;border-bottom:1px #e2e2e2 solid;float:left;}
+.booking_details .price{width:959px; height:70px;}
+.booking_details .price .label{height:70px;line-height:70px;}
+.booking_details .priceGrid{margin-right:90px;width:200px;height:70px;float:left;}
+.booking_details .priceGrid .topTxt{width:100%;height:44px;line-height:44px;text-align:center;font-size:16px;font-weight:bold;color:#6a6464;float:left;}
+.booking_details .priceGrid .leftTxt,
+.booking_details .priceGrid .rightTxt{width:87px;height:16px;line-height:16px;font-size:14px;float:left;}
+.booking_details .priceGrid .leftTxt{color:#3399ee;padding-right:12px;border-right:1px #a4a4a4 solid;text-align:right;}
+.booking_details .priceGrid .rightTxt{color:#f4706f;padding-left:12px;border-left:1px #a4a4a4 solid;text-align:left;}
+.booking_details .grid{width:319px;height:40px;}
+.booking_details .long{width:959px;height:40px;}
+.booking_details .txt1{width:239px;height:40px;line-height:40px;text-align:center;color:#444444;float:left;}
+.booking_details .txt2{width:879px;height:40px;line-height:40px;color:#444444;float:left;}
+.booking_details .txt2 span{padding-left:22px;}
+.booking_details .mark{width:959px;height:83px;}
+.booking_details .mark .label{height:83px;line-height:30px;}
+.booking_details .txt3{width:879px;height:83px;line-height:30px;color:#444444;text-indent:28px;float:left;}
+
+.booking_consult .caption{width:90px;height:100%;line-height:174px;font-size:16px;color:#212121;float:left;}
+.booking_consult .right{width:970px;float:left;}
+.booking_consult .topTxt{padding:4px 0 0 6px;width:964px;height:64px;line-height:24px;color:#777777;float:left;}
+.booking_consult .topTxt>a{color:#3399ee;cursor:pointer;}
+.booking_consult .topTxt>a:hover{text-decoration:underline;}
+.booking_consulTabs{width:960px;height:39px;float:left;}
+.booking_consulTabs li{width:238px;height:38px;line-height:38px;text-align:center;color:#444444;background:#fff;cursor:pointer;border:1px transparent solid;border-bottom:0;position:relative;top:0;float:left;}
+.booking_consulTabs li:hover{color:#3399ee;}
+.booking_consulTabs .sel{color:#3399ee;border-color:#e2e2e2;top:1px;}
+.booking_consulContent{margin-bottom:70px;width:958px;min-height:300px;border:1px #e2e2e2 solid;float:left;}

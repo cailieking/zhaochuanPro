@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>国际物流供应链|国际货代|海运平台|在线订舱|船期查询-深圳找船网</title>
+    <meta name="keywords" content="国际海运平台,深圳货代公司,在线订舱,深圳国际货运,集装箱海运,货运代理,海运查询，国际物流供应链">
+    <meta name="description" content="找船网是一家为中小型出口企业提供国际物流供应链综合服务B2B平台，提供在线订舱、国际货运、集装箱海运、货运代理、海运查询，货运险等服务【咨询热线：400-8755-156】">
+    <link rel="stylesheet" type="text/css" href="/css/c_css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/c_css/shipping.css">
+    <script src="/js/c_js/jquery.js"></script>
+    <script src="/js/c_js/common.js"></script>
+    <script src="/js/c_js/searchbox.js"></script>
+    <script src="/js/c_js/shipping.js"></script>
+</head>
+<body>
+
+
+<div class="contentBg0" style="background:transparent;">
+	<!--顶部图片-->
+	<div class="shipping_bannerBg0">
+    	<div class="shipping_bannerBg md1200">
+        	<div class="text" style="margin-left:149px;">更多运价信息尽在找船网 —— www.zhao-chuan.com</div>
+            <div class="searchBg0" style="margin-left:144px;width:900px;">
+            	<div class="searchBg" style="width:890px;">
+                	<input id="start_port_input" class="searchBox" type="text" placeholder="输入起始港" style="width:272px;" />
+                    <input id="dest_port_input" class="searchBox" type="text" placeholder="输入目的港" style="width:272px;border-right:1px #616161 solid;" />
+                    <input id="s_company_input" class="searchBox" type="text" placeholder="输入船公司" style="width:236px;" />
+                    <div id="port_search_btn" data-type="shipping" class="searchBtn" style="float:right;"></div>
+                </div>
+            </div>
+            <div class="moreBtn" style="display:none;">更多条件</div>
+    	</div>
+    </div>
+    <!--顶部图片 end-->
+    <!--更多条件-->
+    <div class="shipping_moreBg0 md1200">
+    	<div class="shipping_moreBg">
+        	<div class="filterBg">
+            	<div class="filterTop">
+                	<div class="label">起始港：</div>
+                    <ul id="search_startPort" class="list"></ul>
+                    <div class="label">目的港：</div>
+                    <ul id="search_endPort" class="list"></ul>
+                    <div class="label">船公司：</div>
+                    <ul id="search_company" class="list"></ul>
+                </div>
+                <div class="filterBtm">
+                	<div class="label">选择柜型</div>
+                    <select id="search_boxType" class="select" >
+                    	<option>20gp</option>
+                        <option>40gp</option>
+                        <option>40hq</option>
+                    </select>
+                	<div class="label">价格</div>
+                    <input id="search_price1" class="box" type="text" onkeyup="value=value.replace(/[^0-9]/g,'')" />
+                    <div class="horzLine"></div>
+                    <input id="search_price2" class="box" type="text" onkeyup="value=value.replace(/[^0-9]/g,'')" />
+                    <div class="label">有效期</div>
+                    <div class="timesBg">
+                    	<input id="search_time" class="box" type="text" />
+                    </div>
+                    <div id="shipping_more_search" class="btn">确定</div>
+                </div>
+            </div>
+            <div class="dataBg">
+            	<div class="titleBg">
+                    <div class="title">起始港</div>
+                </div>
+                <ul id="shipping_more_startList" class="dataList">
+                    <!--<li><span>宁波</span></li>-->
+                </ul>
+                <div class="openCloseBtn">收起&nbsp;&nbsp;∧</div>
+            </div>
+            <div class="dataBg">
+            	<div class="titleBg">
+                    <div class="title">目的港</div>
+                </div>
+                <ul id="shipping_more_endList" class="dataList">
+                   <!--<li><span>SANTOS</span></li>-->
+                </ul>
+                <div id="shipping_more_endList_details" style="display:none;" class="dataList">
+                	<div class="topFilter">
+                    	<ul class="wordList">
+                        	<li><span>A</span></li><li><span>B</span></li><li><span>C</span></li><li><span>D</span></li>
+                            <li><span>E</span></li><li><span>F</span></li><li><span>G</span></li><li><span>H</span></li>
+                            <li><span>I</span></li><li><span>J</span></li><li><span>K</span></li><li><span>L</span></li>
+                            <li><span>M</span></li><li><span>N</span></li><li><span>O</span></li><li><span>P</span></li>
+                            <li><span>Q</span></li><li><span>R</span></li><li><span>S</span></li><li><span>T</span></li>
+                            <li><span>U</span></li><li><span>V</span></li><li><span>W</span></li><li><span>X</span></li>
+                            <li><span>Y</span></li><li><span>Z</span></li>
+                        </ul>
+                        <input class="box" type="text" placeholder="输入目的港名称" />
+                    </div>
+                	<ul class="dataList">
+                        <!--<li><span>SANTOS</span></li>-->
+                    </ul>
+                </div>
+                <div class="openCloseBtn">展开&nbsp;&nbsp;∨</div>
+            </div>
+            <div class="dataBg">
+            	<div class="titleBg">
+                    <div class="title">船公司</div>
+                </div>
+                <ul id="shipping_more_companyList" class="dataList">
+                    <!--<li><span>HMM</span></li>-->
+                </ul>
+                <div class="openCloseBtn">收起&nbsp;&nbsp;∧</div>
+            </div>
+        </div>
+    </div>
+    <!--更多条件 end-->
+    <!--运价信息表格-->
+	<div class="shipping_table md1200">
+    	<div class="head">
+        	<div class="grid1">起始港/目的港</div><input type="hidden"  id="totalCount" />
+            <div class="grid2" style="cursor:pointer;" data-type='gp20' onclick="shippingSort($(this))">20GP<span class="sort"></span></div>
+            <div class="grid3" style="cursor:pointer;" data-type='gp40' onClick="shippingSort($(this))">40GP<span class="sort"></span></div>
+            <div class="grid4" style="cursor:pointer;" data-type='hq40' onClick="shippingSort($(this))">40HQ<span class="sort"></span></div>
+            <div class="grid5">船公司</div>
+            <div class="grid6">船期</div>
+            <div class="grid7" style="cursor:pointer;" data-type='time' onClick="shippingSort($(this))">有效期 <span class="sort"></span></div>
+            <div class="grid8">操作</div>
+        </div>
+        <div class="rowBg">
+        	<!--<div class="row">
+                <div class="grid1">
+                    <div class="startPort">SHENZHEN</div>
+                    <div class="endPort">MEIGUO</div>
+                </div>
+                <div class="grid2">
+                    <div class="redPrice">$100</div>
+                    <div class="grayPrice">$120</div>
+                </div>
+                <div class="grid3">
+                    <div class="redPrice">$120</div>
+                    <div class="grayPrice">$150</div>
+                </div>
+                <div class="grid4">
+                    <div class="redPrice">$120</div>
+                    <div class="grayPrice">$150</div>
+                </div>
+                <div class="grid5">MSK</div>
+                <div class="grid6">2截1开</div>
+                <div class="grid7">
+                    <div class="mdTxtBg">
+                        <div class="mdTxt">2015/10/15<br/>丨<br/>2015/10/28</div>
+                    </div>
+                </div>
+                <div class="grid8">
+                    <div class="mdTxtBg">
+                        <div class="mdTxt">
+                            <a class="details">详情</a><br/>
+                            <a>在线订舱</a>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <div class="pageBg0">
+        	<div class="common_pageBK">
+                <!--<div class="common_page_first">首页</div>
+                <div class="common_page_up">上一页</div>
+                <div class="common_page_number common_page_number_sel">1</div>
+                <div class="common_page_number">2</div>
+                <div class="common_page_number">3</div>
+                <div class="common_page_down">下一页</div>
+                <div class="common_page_last">尾页</div>
+                <div class="common_page_sum">共<span>12</span>页</div>
+                <input type="text" class="common_page_input_number" value="1"/>
+                <div class="common_page_go">go</div>-->
+            </div>
+        </div>
+        
+    </div>
+    <!--运价信息表格 end-->
+</div>
+<!--详情弹出框-->
+    <div class="sDetail" style="display:none;">
+    	<div class="title">
+        	<div class="caption">运价详情</div>
+            <div class="close"></div>
+        </div>
+        <div class="sDetailContent">
+            <div class="row1">
+            	<div class="label">附加费：</div>
+                <div class="tableBK">
+                	<table cellspacing="4">
+                    	<tr>
+                        	<th>名称</th>
+                            <th>单位</th>
+                            <th>20GP</th>
+                            <th>40GP</th>
+                            <th>40HQ</th>
+                            <th>单票</th>
+                            <th>币种</th>
+                        </tr>
+                        <tr>
+                        	<td>DOC</td>
+                            <td>箱</td>
+                            <td>100</td>
+                            <td>200</td>
+                            <td>300</td>
+                            <td>44</td>
+                            <td>CNY</td>
+                        </tr>
+                        <tr>
+                        	<td>DOC</td>
+                            <td>箱</td>
+                            <td>100</td>
+                            <td>200</td>
+                            <td>300</td>
+                            <td>44</td>
+                            <td>CNY</td>
+                        </tr>
+                        <tr>
+                        	<td>DOC</td>
+                            <td>箱</td>
+                            <td>100</td>
+                            <td>200</td>
+                            <td>300</td>
+                            <td>44</td>
+                            <td>CNY</td>
+                        </tr>
+                        <tr>
+                        	<td>DOC</td>
+                            <td>箱</td>
+                            <td>100</td>
+                            <td>200</td>
+                            <td>300</td>
+                            <td>44</td>
+                            <td>CNY</td>
+                        </tr>
+                        <tr>
+                        	<td>DOC</td>
+                            <td>箱</td>
+                            <td>100</td>
+                            <td>200</td>
+                            <td>300</td>
+                            <td>44</td>
+                            <td>CNY</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row2">
+            	<div class="label">航程：</div>
+                <div class="txt"></div>
+                <div class="label">中转港：</div>
+                <div class="txt"></div>
+                <div class="label">限重：</div>
+                <div class="txt"></div>
+            </div>
+            <div class="row3">
+            	<div class="label">备注：</div>
+                <div class="txt">
+                	
+                </div>
+            </div>
+        </div>
+    </div>
+<!--详情弹出框 end-->
+<div class="tbLoading"><img src="/images/ajax-loader.gif" /></div>
+</body>
+</html>

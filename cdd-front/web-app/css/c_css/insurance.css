@@ -1,0 +1,212 @@
+.index_content_list {
+    float: left;
+    margin-bottom: 10px;
+    min-height: 300px;
+    width: 100%;
+}
+ul, li {
+    list-style: outside none none;
+}
+/* .index_content_list .one {
+    background: #10b3ea none repeat scroll 0 0;
+} */
+.index_content_list li {
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin: auto
+}
+ul, li {
+    list-style: outside none none;
+}
+li {
+    line-height: 20px;
+}
+.index_content_remark.icon {
+    display: block;
+    height: 86px;
+    margin: 46px auto 31px;
+    width: 86px;
+}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+   /*  vertical-align: middle; */
+}
+.index_content_remark .msg {
+    height: 150px;
+    line-height: 25px;
+    margin: -20px auto 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+.content > div {
+    clear: both;
+    margin: 35px auto;
+    width: 1200px;
+   
+}
+.index_content_title {
+    color: #212121;
+    float: left;
+    font-size: 40px;
+    line-height: 84px;
+    text-align: center;
+    width: 100%;
+}
+
+p
+  {
+  	font-family:"Microsoft YaHei",Georgia,Serif;
+  	font-size: 25px;
+    margin: 48px auto;
+    width: 266px;
+}
+ 
+ 
+.index_content_buttom .msg {
+    height: 100px;
+    line-height: 25px;
+    margin: -20px auto 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 260px;
+}
+.index_content_buttom li {
+    float: left;
+    margin: auto;
+    width:320px;
+    color:#666
+}
+
+.index_content_buttom {
+    margin-bottom: 10px;
+    min-height: 130px;
+    display:table;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.index_content_buttom .icon_server {
+    display: block;
+    margin: auto ;
+    background: #fff
+}
+
+.span_adv {
+	font-family:  'Microsoft Yahei', '微软雅黑', Arial, sans-serif, Helvetica, 'Hiragino Sans GB',;
+	font-size:60px;
+	color: #1466E5
+}
+
+.insurance_business .left {
+    background: rgba(0, 0, 0, 0) url("/images/insurance/insurance_03.png") no-repeat scroll center center;
+    float: left;
+    height: 380px;
+    margin-right: -100px;
+    width: 580px;
+}
+
+.insurance_business {
+    clear: both;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 350px;
+    padding-bottom: 27px;
+}
+
+
+.insurance_business .right {
+/*     background: rgba(0, 0, 0, 0) url("../images/businessImage2.png") no-repeat scroll center center;
+ */    float: left;
+    height: 360px;
+    margin: 0 10px 8px 0;
+    width: 550px;
+}
+
+.ul_option li{
+	/* list-style:circle inside; */
+	margin-top:10px;
+	list-style:outside none disc;
+	margin-left: 15px;
+	color:#666;
+
+}
+
+.bargain_List div {
+ /*    background: #1466E5 none repeat scroll 0 0; */
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+ /*    line-height: 40px; */
+    text-align: center;
+ 	width: 100%; 
+ 	border-radius: 10px;
+}
+.bargain_List {
+	/* min-height:183px; */
+	background: #1466e5;
+}
+.bargain_List div{
+	margin: auto
+}
+
+.index_content_buttom li div {
+	background : rgba(0, 0, 0, 0) url("/images/insurance/品牌优势.png") no-repeat scroll center center;
+/* 	float: left;
+	 width: 310px; */
+    height: 290px;
+/*     margin-right: -100px; */
+   
+}
+
+hr {
+	border-bottom:1px solid #1466e5;
+	width:1200px;
+	margin:50px auto auto 
+}
+.business_ul {
+	width:150px;
+	margin-left:70px
+}
+.business_ul li{
+	list-style: disc outside none;
+	color:#666
+}
+
+.business_p{
+	font-family:"Microsoft YaHei",Georgia,Serif;
+  	font-size: 15px;
+    margin: 25px auto
+} 
+
+
+.index_content_view li {
+    float: left;
+    margin: auto;
+    width:200px;
+     text-align: center;
+     color:#666
+}
+
+.index_content_view li span {
+    float: left;
+    margin: auto;
+    width:100%;
+     text-align: center;
+     color:#666
+}
+
+.index_content_view {
+/*     float: left; */
+    margin-bottom: 20px;
+    min-height: 130px;
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+}
+

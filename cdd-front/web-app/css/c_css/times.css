@@ -1,0 +1,8 @@
+.times_bannerBg0{margin-bottom:30px;width:100%;min-width:1200px;height:270px;background:url(/images/c_images/times/times_bannerBg.png) no-repeat center center;float:left;}
+.times_bannerBg0 .txt1{width:100%;padding:38px 0 20px 0;height:34px;line-height:34px;font-size:24px;color:#fff;text-align:center;clear:both;}
+.times_bannerBg0 .txt2{width:600px;height:113px;clear:both;margin:0 auto;}
+.times_bannerBg0 .txt2>div{margin-left:67px;width:98px;height:113px;line-height:113px;font-size:48px;color:#222222;text-align:center;background:url(/images/c_images/times/times_nameBg.png) no-repeat;float:left;}
+.times_bannerBg0 .txt2>div:first-child{margin-left:0;}
+
+.times_contentBg0{width:100%;min-width:1200px;background:#fff;float:left;}
+.times_filterBg{padding:10px 14px;width:930px;float:left;}

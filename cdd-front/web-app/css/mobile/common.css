@@ -1,0 +1,200 @@
+/*resets*/
+body{font-family:"Microsoft YaHei";font-size:14px;}
+*{padding:0px;margin:0px;}
+ul,li{list-style:none;}
+a{text-decoration:none;color:#000;}
+img,input{max-width:100%;}
+img,a{border:0;}
+/*resets end*/
+
+@font-face {font-family:fzltcxjt;src: url('../fonts/fzltcxjt.TTF');}
+@font-face {font-family:fzktjt;src: url('../fonts/fzktjt.TTF');}
+.md1200{clear:both;margin-left:auto;margin-right:auto;}
+
+
+.topBg{width:100%;background:#fff;box-shadow:0px 1px 5px #949494;}/*float:left ,min-width:1200px;height:88px;*/
+.topBg .top{color:#333333;font-size:15px;}/*height:88px;*/
+.topBg a{cursor:pointer;cursor:hand;}
+.topBg a:hover{color:#00a0e9;}
+.topBg .logoBg{margin:15px 15px 0 0;}#float:left;
+.topBg .zclogo{width:211px;height:59px;cursor:pointer;cursor:hand;float:left;}
+/* .topBg .nav_mobile{margin-top:16px;}#float:left; */
+.middle_s{
+	text-alighn:center;
+	margin:auto;
+	min-width:280px;
+	max-width:680px";
+} 	
+.nav_mobile {margin-right: auto;margin-left: auto;display:table}
+.nav_mobile li a {
+	font-size:8px;
+}
+.topBg .nav_mobile li{margin-right:5px;}/* float:left; */
+.nav_mobile li{margin-right:5px;}/*float:left;*/
+.nav_mobile li{ -moz-border-bottom-colors: none;
+/*     -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #4cb1db none repeat scroll 0 0;
+    border-color: currentcolor currentcolor rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 5px;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 0.5em;
+    padding: 8px 14px 9px;
+    position: relative;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+} 
+
+.topBg .nav_mobile li>a{display:block;font-size:10px}/*line-height:54px;*/
+.topBg .nav_mobile li>a.sel{color:#00a0e9;}
+.topBg .register,
+.topBg .login{margin-top:35px;width:50px;height:18px;text-align:center;line-height:18px;float:right;}
+.topBg .welcome{margin-top:35px;height:18px;text-align:right;line-height:18px;float:right;}
+.topBg .welcome>a{padding:0 5px;color:#000;}
+.topBg .welcome>a:hover{text-decoration:underline;}
+.topBg .register a,
+.topBg .login a{width:100%;height:100%;display:block;float:right;}
+.topBg .register{border-left:1px #000 solid;}
+
+.contentBg0{width:100%;clear:both;margin:0 auto;}
+
+.bottomBg{width:100%;min-width:1200px;height:64px;background:#3c3c3c;float:left;}
+.bottom{height:64px;color:#fff;font-size:12px;text-align:center;line-height:18px;}
+.bottom .topTxt{padding-top:16px;}
+.bottom .topTxt>a{padding:0 8px;cursor:pointer;color:#fff;cursor:hand;}
+.bottom .topTxt>span{color:#202020;}
+.bottom .btmTxt>a{cursor:pointer;color:#fff;cursor:hand;}
+
+.footerBg{width:100%;min-width:1200px;height:205px;background:#dedfe0;float:left;}
+.footer{height:205px;}
+.footerList{margin:30px 0 0 120px;width:1080px;height:175px;float:left;}
+.footerList li{width:200px;height:175px;float:left;}
+.footerList li .c_text{margin:10px 0 5px 0;width:100%;height:18px;line-height:18px;font-size:12px;color:#444444;cursor:pointer;cursor:hand;float:left;}
+.footerList li .c_text>a{display:block;width:100%;height:100%;color:#444444;}
+.footerList li .title{font-family:'Microsoft YaHei';font-size:14px;cursor:default;margin-bottom:15px;}
+.footerList .long{width:auto;height:175px;float:right;}
+.footerList .long .title{width:60px;height:150px;}
+.footerList .wxImageBg{width:138px;height:100%;float:left;}
+.footerList .wxImage{margin-top:40px;width:93px;height:93px;float:left;}
+.footerList .wxName,
+.footerList .wbName{width:100%;height:28px;line-height:28px;font-size:12px;color:#444444;float:left;}
+.footerList .wxName{background:url(/images/c_images/wxIcon.png) no-repeat left center;text-indent:30px;}
+.footerList .wbName{background:url(/images/c_images/wbIcon.png) no-repeat left center;text-indent:30px;}
+
+/*搜索弹出框*/
+.ui-port-list{
+    z-index:1001;
+    border:1px solid rgb(229, 219, 219);
+    width:247px;
+    background-color: white;
+
+}
+.ui-port-list li{
+    color:#666;
+    padding-top:7.5px;
+    padding-bottom:7.5px;
+
+}
+.ui-port-list > li.active,
+.ui-port-list > li:hover,
+.ui-port-list > li:focus {
+  background-color: #E7E7E7;
+}
+.ui-port-list span ,.ui-port-list b{
+    padding-left:12px;
+    font-size:12px;
+}
+.ui-port-list b{
+    float:right;
+    padding-right:12px;
+}
+/*搜索弹出框 end*/
+
+/*--分页控件--*/
+.common_pageBK{float:right;height:28px;font-size:14px;color:#000;line-height:26px;}
+.common_page_first,
+.common_page_up,
+.common_page_number,
+.common_page_down,
+.common_page_last,
+.common_page_go{padding:0 10px;margin-left:5px;height:26px;border:1px #c2c6c5 solid;border-radius:3px;background:#fff;text-align:center;-webkit-user-select:none;float:left;}
+.common_page_first:hover,
+.common_page_up:hover,
+.common_page_number:hover,
+.common_page_number_sel,
+.common_page_down:hover,
+.common_page_last:hover,
+.common_page_go:hover{background:#3c3c3c;border-color:#3c3c3c;color:#fff;cursor:pointer;}
+.common_page_LPoint,
+.common_page_RPoint,
+.common_page_sum{margin:0 5px;float:left;height:28px;}
+.common_page_LPoint,
+.common_page_RPoint{display:none;}
+.common_page_input_number{width:26px;height:26px;border:1px #c2c6c5 solid;border-radius:3px; text-align:center;background:#fff;float:left;}
+.common_page_first.disabled,
+.common_page_up.disabled,
+.common_page_down.disabled,
+.common_page_last.disabled{background:#fff;border-color:#d2d2d2;color:#7f7f7f;}
+.common_page_first.disabled:hover,
+.common_page_up.disabled:hover,
+.common_page_down.disabled:hover,
+.common_page_last.disabled:hover{background:#fff;border-color:#d2d2d2;color:#7f7f7f;cursor:default;}
+/*--分页控件 end--*/
+
+
+/*日历控件*/
+.cjhCalendar{width:280px;border:1px #e97e00 solid;background:#fff;position:absolute;top:37px;right:0;display:none;z-index:1;}
+.cjhCalendar .rl_top{width:280px;height:30px;background:#fff;float:left;}
+.cjhCalendar .grid{ border:1px #e97e00 solid;width:38px;height:28px;line-height:28px;text-align:center;font-size:14px;color:#000; float:left;}
+.cjhCalendar .empty{border-left-color:#fff;border-right-color:#fff;}
+.cjhCalendar .rl_head{width:280px;height:30px;background:#e2e2e2;float:left;}
+.cjhCalendar .rl_head .grid{font-weight:bold;background:#fff;}
+.cjhCalendar .rl_body{width:280px;background:#fff;float:left;}
+.cjhCalendar .rl_btn{width:30px;height:30px;line-height:30px;text-align:center;float:left;}
+.cjhCalendar .rl_title{width:220px;height:28px;line-height:30px;text-align:center;float:left;}
+.cjhCalendar .day:hover{cursor:pointer;background:#e97e00;}
+/*日历控件 end*/
+
+/*loading*/
+.tbLoading{width:100%;height:100%;background:#fff;background:rgba(255,255,255,0.6);position:fixed;top:0;left:0;display:none;}
+.tbLoading img{width:43px;height:11px;position:absolute;top:50%;left:50%;margin-left:-21px;margin-top:-5px;}
+/*loading end*/
+
+.omit{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+
+
+/*online service*/
+.kf{
+position: fixed;
+right: 0px;
+float: right;
+top: 280px;
+width: 36px;
+overflow: hidden;
+z-index: 10;
+cursor:pointer;
+}
+.kf .b{display:none;float:left;width:135px;background: #FFFFFF;}
+.kf .b dt{width:115px;height: 36px;line-height: 36px;background: #666666;padding-left:20px;color:#FFFFFF;font-size: 18px;font-family: Microsoft YaHei;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+ box-sizing: content-box;
+}
+.kf .b dd{width:133px;border:solid 1px #dddddd;border-top:solid 4px #ff9900;background: #ffffff;}
+.kf .b dd .b1{margin-top: 15px;margin-left: 12px;padding-left:24px;height:18px;background:url(/images/common/kf_time.png) no-repeat;line-height: 18px;color:#b0b0b0;font-size: 16px;font-family: Microsoft YaHei;}
+.kf .b dd .b2{padding:9px 0px 9px 36px;line-height:16px;border-bottom: solid 1px #dddddd;color:#ffa942;font-size: 16px;font-family: Arial;}
+.kf .b dd .b3{padding:7px 27px; border-bottom: solid 1px #dddddd; height:38px;}
+.kf .b dd .b4{margin:12px;padding-left: 24px;height: 18px;background:url(/images/common/kf_tel.png) no-repeat;line-height: 18px;color:#b0b0b0;font-size: 16px;font-family: Microsoft YaHei;}
+.kf .b dd .b5{padding-left: 28px;height: 28px;color:#ff9900;font-size:16px;font-family: Arial;}
+.kf .t{float:left;margin-top: 36px;margin-left:-1px;}
+.kf .t a{display:block;width:36px;height: 199px;background:url(/images/common/kf_fold.png) no-repeat;}
+.kf .t .s{background:url(/images/common/kf_unfold.png) no-repeat;}

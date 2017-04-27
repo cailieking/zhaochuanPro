@@ -1,0 +1,72 @@
+div.agent-resource-ctn{
+    padding-bottom: 30px;
+    padding-left:12%
+}
+div.nav{
+    margin:10px auto;
+    color:#2c2c2c;
+}
+div.nav a:link,.member-title a:link {
+    text-decoration: none;
+}
+
+div.company-title .title{
+    font-size:25px;
+    color:#161617;
+}
+div.company-title .verified-icon{
+    padding-left:5px;
+    width:20px;
+    height:20px;
+}
+div.main-content{
+    border:1px solid #C0A9A9;
+    padding:40px;
+    width:82%;
+}
+.company-name{
+    margin-top: 20px;
+    color:#888888;
+    font-size:14px;
+}
+.consult ul{
+    list-style: none;
+    padding-top:5px;
+    margin-bottom:40px;
+}
+.member-image{
+    width:105px;
+    height:105px;
+    float:left;
+    padding-right:20px;
+}
+.member-title a{
+    font-size:20px;
+    font-weight: bold;
+    padding-right:20px;
+}
+.member-title img{
+    width:16px;
+    height:16px;
+}
+.member-title span{
+
+}
+ul.evaluate li{
+    display:inline-block;
+    margin-right:50px;
+    color:#888888;
+}
+.cheng{
+    margin-left:5px;
+    color:#3399EE;
+}
+.profile-zone{
+    background: #FDFAFC;
+    padding:10px 20px;
+}
+.profile{
+   color:#888888;
+    font-size:14px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,268 @@
+.booking-main-container {
+   width:1000px;
+   margin:0 auto;
+}
+.booking-main-container .specification {
+    margin:5px 0
+}
+
+.booking-main-container .specification div{
+    font-size:14px;
+    padding-bottom:10px;
+    color:#251E1E;
+
+}
+.booking-main-content input{
+    line-height:30px;
+    text-align:center;
+    border:1px solid #ddd;
+    outline:none;
+    height:30px;
+    width:120px;
+    padding-left:5px;
+    margin:5px 5px;
+}
+.booking-main-container label{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width:70px;
+    text-align: right;
+}
+.common-info{
+    margin-top:10px;
+}
+.common-info>li{
+    float: left;
+    width:221px;
+}
+/*.booking-main-content table{
+    margin:2px 25px;
+}*/
+.booking-main-content table td{
+    white-space: nowrap;
+}
+.ui-left-subtitle{
+    font-weight: bold;
+    font-size:16px;
+    color:#584E4E;
+    margin:2px 0;
+}
+.booking-main-content{
+    border:1px solid #ddd;
+}
+.booking-main-content h1{
+    text-align:center;
+    font-size: 18px;
+
+}
+.booking-main-content ul{
+   display:inline-block;
+
+}
+.book-1 h1, .book-2 h1,.book-3 h1,.book-4 h1,.book-5 h1{
+    border-bottom:1px solid #ddd;
+    text-align: left;
+    padding:3px 5px;
+
+}
+.book-1,.book-2,.book-3,.book-4,.book-5{
+    border:1px solid #ddd;
+}
+.book-1, .book-2{
+    float:left;
+    width:443px;
+    height:140px;
+    margin-left:25px;
+    margin-top:25px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.book-3,.book-4{
+    width:443px;
+    height:140px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.book-3{
+    margin-bottom: 30px;
+}
+
+.section-3{
+    float:left;
+    margin-left:25px;
+    margin-top:25px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width:443px;
+    height:318px;
+}
+.local-fee{
+    margin:25px;
+    height:318px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width:443px;
+}
+.local-fee h1{
+  padding:10px;
+  margin-bottom:15px;
+}
+.local-fee li{
+    margin-bottom:3px;
+}
+table .row1{
+    margin:2px 25px
+}
+table .td3{
+    padding-left:100px;
+}
+
+.row-even .td3 input{
+    width:15px;
+    height:15px;
+
+}
+.td3 span{
+    margin-right:30px;
+}
+.td2{
+    padding-left:35px;
+}
+.table-1 td{
+    padding-left:25px;
+}
+.table-2{
+    margin-left:25px;
+    width:861px;
+    height:187px;
+    border-bottom:1px solid #ddd;
+    margin-bottom: 5px;
+}
+.table-2 td{
+
+    border:1px solid #ddd;
+}
+.table-2 textarea{
+    height:140px;
+}
+.table-2 thead td{
+    padding:10px 5px;
+}
+.tbody-td1{
+    text-align:center;
+}
+.table-2 tbody input{
+    text-align: center;
+    width:100px;
+}
+.shipping-price{
+    border-bottom: 1px solid #ddd;
+    padding:10px 5px;
+}
+.shipping-price-zone{
+    width:95%;
+    height:122px;
+    margin-left:25px;
+    border:solid 1px #ddd;
+}
+.currency{
+    width:47%;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.rate-row1 .money,.rate-row2 .money{
+    margin-left:15px;
+}
+
+.currency input{
+    width:140px;
+    margin:0px 0px;
+    float:left;
+}
+.rate-row1, .rate-row2{
+    width:100%;
+    height:30px;
+    padding:5px 10px;
+}
+.currency .money{
+    background: #E4E4E4;
+    padding:7px;
+    float:left;
+}
+.money-last{
+    width:25px;
+    background: #E4E4E4;
+    padding:7px;
+    float:left;
+}
+.totalPrice{
+    white-space: nowrap;
+    font-size:18px;
+    margin:20px;
+    width:65px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.money-collection{
+    margin-top:15px;
+    float:right;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.money-collection h5{
+  margin-top:10px;
+}
+.money-term{
+    font-size:24px;
+    color:red;
+    margin-left:15px;
+}
+.signature{
+    width:350px;
+    padding:0 5px;
+}
+.booker-remark{
+    float:right;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width:450px;
+}
+.agreement input{
+    margin: 0px 0px;
+    width:35px;
+    height:13px;
+}
+.booker-remark div{
+    margin:2px;
+}
+.booking-footer{
+    margin-top:40px;
+    margin-bottom: 25px;
+    text-align:center;
+}
+.booking-footer a{
+    text-decoration: none;
+    border:1px solid #ddd;
+    padding:5px 20px;
+    background:#3879D9;
+    color:white;
+}
+.booking-footer input{
+    background-color:white;
+    width:70px;
+}
+.last-signature span{
+   margin-right:20px;
+}
+.agreement .publish {
+    color:#0099FF;
+}

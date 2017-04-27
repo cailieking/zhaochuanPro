@@ -1,0 +1,37 @@
+.anniversaryBg0{width:100%;min-width:1200px;height:2104px;background:url(/images/c_images/show/anniversary/bg.png) repeat-x top center;}
+.anniversaryList{padding-top:717px;}
+.anniversaryList li{margin-bottom:10px;width:1200px;height:380px;background:#fff;float:left;}
+.anniversaryList .image1{background:url(/images/c_images/show/anniversary/image1.jpg) no-repeat left center;}
+.anniversaryList .image2{background:url(/images/c_images/show/anniversary/image2.jpg) no-repeat left center;}
+.anniversaryList .image3{background:url(/images/c_images/show/anniversary/image3.jpg) no-repeat left center;}
+.anniversaryList .left{width:610px;height:380px;float:left;}
+.anniversaryList .right{width:580px;height:380px;float:left;}
+.anniversaryList .right .caption{padding-top:24px;height:125px;line-height:125px;font-size:30px;color:#403d3d;clear:both;}
+.anniversaryList .right .txt{line-height:36px;font-size:14px;color:#8f8b8b;clear:both;}
+
+
+.show_content{min-width:1200px;clear:both;margin:0 auto;}
+
+.show_topBg0{width:100%;min-width:1200px;height:460px;background:url(/images/c_images/show/2/show_top_banner.png) no-repeat center center;clear:both;}
+.show_topBg{height:460px;}
+
+.show_txt1{width:1200px;height:220px;margin:0 auto;display:table;position:relative;clear:both;}
+.show_txt1 .red{color:#eb2a2a;}
+.show_txt1 .txtBg{display:table-cell;vertical-align:middle;*position:absolute;*top:50%;*left:50%;}
+.show_txt1 .txt{*position:relative;*top:-50%;*left:-50%;font-size:20px;color:#333333;line-height:34px;}
+
+.show_list{}
+.show_list li{width:100%;min-width:888px;height:420px;float:left;}
+.show_list .image{width:442px;height:420px;background-repeat:no-repeat;}
+.show_list .text{width:442px;height:420px;display:table;position:relative;}
+.show_list .text .txtBg{display:table-cell;vertical-align:middle;*position:absolute;*top:50%;*left:50%;}
+.show_list .text .txt{*position:relative;*top:-50%;*left:-50%;font-size:24px;color:#333333;line-height:42px;}
+.show_list .right .image{float:right;background-position:right center;}
+.show_list .right .text{float:left;}
+.show_list .left .image{float:left;background-position:left center;}
+.show_list .left .text{float:right;text-align:right;}
+
+.show_bottomBg0{width:100%;min-width:1200px;height:180px;background:#414141;clear:both;}
+.show_bottomBg{height:180px;display:table;position:relative;clear:both;}
+.show_bottomBg .txtBg{display:table-cell;vertical-align:middle;text-align:center;*position:absolute;*top:50%;*left:50%;}
+.show_bottomBg .txt{*position:relative;*top:-50%;*left:-50%;font-size:15px;color:#fff;line-height:32px;}

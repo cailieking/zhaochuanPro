@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>国际物流供应链|国际货代|海运平台|在线订舱|船期查询-深圳找船网</title>
+    <meta name="keywords" content="国际海运平台,深圳货代公司,在线订舱,深圳国际货运,集装箱海运,货运代理,海运查询，国际物流供应链">
+    <meta name="description" content="找船网是一家为中小型出口企业提供国际物流供应链综合服务B2B平台，提供在线订舱、国际货运、集装箱海运、货运代理、海运查询，货运险等服务【咨询热线：400-8755-156】">
+    <link rel="stylesheet" type="text/css" href="/css/c_css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/c_css/shipping.css">
+    <link rel="stylesheet" type="text/css" href="/css/c_css/pallet.css">
+    <script src="/js/c_js/jquery.js"></script>
+    <script src="/js/c_js/common.js"></script>
+    <script src="/js/c_js/searchbox.js"></script>
+    <script src="/js/c_js/pallet.js"></script>
+</head>
+<body>
+
+
+<div class="contentBg0">
+	<!--顶部图片-->
+	<div class="shipping_bannerBg0">
+    	<div class="shipping_bannerBg md1200">
+        	<div class="text">更多货盘信息尽在找船网 —— www.zhao-chuan.com</div>
+            <div class="searchBg0">
+            	<div class="searchBg">
+                	<input id="start_port_input" class="searchBox" type="text" placeholder="输入起始港" />
+                    <input id="dest_port_input" class="searchBox" type="text" placeholder="输入目的港" />
+                    <input id="s_company_input" type="text" style="display:none;" />
+                    <div id="port_search_btn" data-type="pallet" class="searchBtn"></div>
+                </div>
+            </div>
+            <div class="moreBtn" style="display:none;">更多条件</div>
+    	</div>
+    </div>
+    <!--顶部图片 end-->
+    <!--更多条件-->
+    <div class="shipping_moreBg0 md1200">
+    	<div class="shipping_moreBg">
+        	<div class="filterBg">
+            	<div class="filterTop">
+                	<div class="label">起始港：</div>
+                    <ul id="search_startPort" class="list"></ul>
+                    <div class="label">目的港：</div>
+                    <ul id="search_endPort" class="list"></ul>
+                    <div class="label">运输类型：</div>
+                    <ul id="search_carry" class="list"></ul>
+                	<div class="label">货物类型：</div>
+                    <ul id="search_palletType" class="list"></ul>
+                </div>
+                <div class="filterBtm">
+                	
+                    <div class="label" style=" width:150px;">预计出货日：</div>
+                    <div class="timesBg">
+                    	<input id="search_time" class="box" type="text" />
+                    </div>
+                    <div id="pallet_more_search" class="btn">确定</div>
+                </div>
+            </div>
+            <div class="dataBg">
+            	<div class="titleBg">
+                    <div class="title">起始港</div>
+                </div>
+                <ul id="shipping_more_startList" class="dataList">
+                    <!--<li><span>宁波</span></li>-->
+                </ul>
+                <div class="openCloseBtn">收起&nbsp;&nbsp;∧</div>
+            </div>
+            <div class="dataBg">
+            	<div class="titleBg">
+                    <div class="title">目的港</div>
+                </div>
+                <ul id="shipping_more_endList" class="dataList">
+                   <!--<li><span>SANTOS</span></li>-->
+                </ul>
+                <div id="shipping_more_endList_details" style="display:none;" class="dataList">
+                	<div class="topFilter">
+                    	<ul class="wordList">
+                        	<li><span>A</span></li><li><span>B</span></li><li><span>C</span></li><li><span>D</span></li>
+                            <li><span>E</span></li><li><span>F</span></li><li><span>G</span></li><li><span>H</span></li>
+                            <li><span>I</span></li><li><span>J</span></li><li><span>K</span></li><li><span>L</span></li>
+                            <li><span>M</span></li><li><span>N</span></li><li><span>O</span></li><li><span>P</span></li>
+                            <li><span>Q</span></li><li><span>R</span></li><li><span>S</span></li><li><span>T</span></li>
+                            <li><span>U</span></li><li><span>V</span></li><li><span>W</span></li><li><span>X</span></li>
+                            <li><span>Y</span></li><li><span>Z</span></li>
+                        </ul>
+                        <input class="box" type="text" placeholder="输入目的港名称" />
+                    </div>
+                	<ul class="dataList">
+                        <!--<li><span>SANTOS</span></li>-->
+                    </ul>
+                </div>
+                <div class="openCloseBtn">展开&nbsp;&nbsp;∨</div>
+            </div>
+            <div class="dataBg">
+            	<div class="titleBg">
+                    <div class="title">运输类型</div>
+                </div>
+                <ul id="shipping_more_carryList" class="dataList">
+                    <!--<li><span>HMM</span></li>-->
+                </ul>
+            </div>
+            <div class="dataBg">
+            	<div class="titleBg">
+                    <div class="title">货物类型</div>
+                </div>
+                <ul id="shipping_more_palletTypeList" class="dataList">
+                    <!--<li><span>HMM</span></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--更多条件 end-->
+    <!--运价信息表格-->
+	<div class="pallet_table md1200">
+    	<div class="head">
+        	<div class="grid1">起始港/目的港</div>
+            <div class="grid2">货物类型</div>
+            <div class="grid3">箱型</div>
+            <div class="grid4">箱个数</div>
+            <div class="grid5">预计出货时间</div>
+            <div class="grid6">报价截止时间</div>
+            <div class="grid7">运输种类</div>
+            <div class="grid8">操作</div>
+        </div>
+        <!--<div class="tipsBg tipsHide">
+        	<div class="tipsList">
+            	<li>限重：50T</li>
+                <li>运输类型：整箱</li>
+                <li>附加费：------</li>
+                <li class="long">备注：更多运价信息请关注找船网微信公众号随时随地了解最新资讯</li>
+            </div>
+        </div>-->
+        <div class="rowBg">
+            <!--<div class="row">
+                <div class="grid1">
+                    <div class="startPort">SHENZHEN</div>
+                    <div class="endPort">MEIGUO</div>
+                </div>
+                <div class="grid2">其他</div>
+                <div class="grid3">40GP</div>
+                <div class="grid4">1</div>
+                <div class="grid5">2015/11/24</div>
+                <div class="grid6">2016/12/01</div>
+                <div class="grid7">整箱</div>
+                <div class="grid8">
+                    <div class="mdTxtBg">
+                        <div class="mdTxt">
+                            <a>我要报价</a>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <div class="pageBg0">
+        	<div class="common_pageBK">
+                <!--<div class="common_page_first">首页</div>
+                <div class="common_page_up">上一页</div>
+                <div class="common_page_number common_page_number_sel">1</div>
+                <div class="common_page_number">2</div>
+                <div class="common_page_number">3</div>
+                <div class="common_page_down">下一页</div>
+                <div class="common_page_last">尾页</div>
+                <div class="common_page_sum">共<span>12</span>页</div>
+                <input type="text" class="common_page_input_number" value="1"/>
+                <div class="common_page_go">go</div>-->
+            </div>
+        </div>
+        
+    </div>
+    <!--运价信息表格 end-->
+</div>
+<div class="tbLoading"><img src="/images/ajax-loader.gif" /></div>
+</body>
+</html>

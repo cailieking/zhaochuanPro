@@ -1,0 +1,54 @@
+.main{margin-top: 10px;}
+.info{ margin:0 auto; width:960px;overflow:hidden;}
+.info .left{ float:left; width:670px;}
+.info .left .area{height: 40px;}
+.info .left .area a{ display:block;float:left;margin:5px; padding:5px;width:60px; border:1px solid #ddd;text-align: center;text-decoration: none;background: #f5f5f5;}
+.info .left .area .on{background: #08d;color: #FFF;}
+.info .right{ float:left; width:290px;}
+.info .list{ float:left; width:668px; border:1px solid #ddd; border-top-color:#08d;}
+.info .list .title{ height:40px; border-bottom:1px solid #ddd; background:#f5f5f5; line-height:40px; color:#f90; font-size:14px;}
+.info .list .time{ float:right; width:130px;}
+.info .list ul{ padding:15px 0; margin:0 20px 0 25px; font-size:14px;}
+.info .list li{ padding-left:18px; background:url(/static/images/news/pic_info_list.png) no-repeat 0 16px; height:36px; line-height:36px;font-size: 14px;}
+.info .list li a:hover{ color:#f90; text-decoration:none;}
+.info .buy{float:right; width:280px; height:400px;}
+.info .buy .title{ height:40px; background:#08d; font-family:'Microsoft YaHei','宋体'; font-size:14px; color:#fff; line-height:40px;}
+.info .buy .title a{ display:inline-block;float:right;margin-right: 20px;color:#FFFFFF;}
+.info .buy .title .a1{ margin-right:5px;}
+.info .buy .title .a2{ margin-right:13px; background-position:-23px -314px;}
+.info .buy ul{ padding:2px 0px; width:278px; height:352px; border:1px solid #ddd; border-top:0;}
+.info .buy ul li{clear:left;padding:2px 0px; height:39px;line-height: 20px;border-bottom:1px dashed #ddd;}
+.info .buy ul .time{float:left; margin:11px 0px;width:48px; height:18px; background:url(/static/images/index/pic_index2.png) no-repeat 0 -337px; line-height:18px;text-align: center; color:#0088dd;}
+.info .buy ul .r2{float:left; display:inline-block;padding:0px 10px;height:40px;width:136px;}
+.info .buy ul .bj{display:block;float:left;margin:9px 10px 9px 0px;width:64px; height:22px; background:#0088dd; line-height:22px; text-align:center;color:#fff;font-family:'Microsoft YaHei','宋体'; }
+.info .buy ul .bj:hover{ background-position:-70px -550px;}
+.info .plastic{ float:right; margin-top:10px; width:280px;}
+.info .plastic .title{ height:40px; background:#08d; font-family:'Microsoft YaHei','宋体'; font-size:14px; color:#fff; line-height:40px;}
+.info .title .m{ display:inline-block; float:right; margin-right:20px;line-height:44px; font-size:14px;font-family:'Microsoft YaHei','宋体';color:#FFFFFF;}
+.info .plastic .d{ padding:9px 10px 8px; width:258px; border:1px solid #ddd; line-height:28px;}
+.info .Text{ border-top:3px solid #ddd; border-bottom:1px solid #ddd;}
+.info .Text h1{ height:70px; font-family:'Microsoft YaHei','宋体'; font-size:26px; text-align:center; font-weight:normal; line-height:70px;}
+.info .Text .p1{ height:36px; background:#f5f5f5; border:1px solid #ddd; text-align:center; line-height:36px;}
+.info .Text .content{ padding:20px 0;font-size: 14px;line-height: 27px;}
+.info .Text .content p{font-size: 14px;font-family: 'Microsoft YaHei','宋体';}
+.info .Text .disclaimer{ padding:10px 15px 20px 15px; width:928px; color:#999; line-height:24px;}
+.info .Text .disclaimer span{ float:left; height:120px;}
+.info .interrelated{ float:left; padding:15px 0; width:670px; font-size:14px; line-height:36px;}
+.info .interrelated dt{ float:left; font-weight:bold;}
+.info .interrelated dd{ float:left;}
+.info .interrelated a{clear:left; color:#06c; text-decoration:underline;}
+
+.focus_trend{border-top:3px solid #ddd;padding:10px;}
+.focus_trend .filter{line-height: 30px;}
+.focus_trend .filter .text{padding:4px;border:ridge 1px #999999;width: 120px;height: 12px;}
+.focus_trend .filter .button{width: 50px;height: 22px;background:#0088cc;color:#FFFFFF;}
+.focus_trend .img{margin: 20px 0px 30px 0px;}
+
+.disclaimer { 
+	border: 1px solid #eee;
+	font-size: 12px;
+}
+
+.disclaimer p {
+	font-size: 12px;
+}

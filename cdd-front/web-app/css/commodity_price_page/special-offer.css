@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    scroll:no;
+}
+
+
+.special-routes,.main-area{
+    width: 100%;
+}
+.special-header{
+	text-align:center;
+	width:1400px;
+	
+}
+
+.special-header>img{
+    width:1200px;
+    height: 150px;
+   display:block;
+}
+.special-routes{
+    height: 70px;
+    padding:5px 0px 5px 0px;
+}
+.special-routes>img{
+	width:177px;
+    height: 68px;
+   display:block;
+}
+
+.main-area{
+ padding: 0px 0px;
+ float:left;
+
+ width:1268px;
+ 
+ 
+ 
+}
+.main-area>ul>li{
+float:left;
+ list-style: none;
+ width: 227px;
+ height: 370px;
+ padding: 0 15px 20px 15px;
+ margin-right:50px;
+ margin-top:0px;
+ background: url("../../images/commodity_price_page/main-area-list-bg.png") no-repeat 0 25px;
+
+}
+.main-area-list,.main-area-list-expect{
+     margin: 20px;
+}
+
+.main-area-list-box,.main-area-list-expect-box{
+    width: 207px;
+    height: 370px;
+    border:1px dashed  #b7b7b7;
+    cursor: pointer;
+   
+    
+}
+.main-area-list .box-ul-one{
+    height: 50px;
+}
+.main-area-list .box-ul-one>b{
+    display: inline-block;
+    width: 26px;
+    height: 28px;
+    margin: 11px 10px 0px 15px;
+    background: url("../../images/commodity_price_page/clock.png") no-repeat;
+}
+.main-area-list .box-ul-one>span{
+    display: inline-block;
+    color: #ff0000;
+    font-size:22px;
+    position: relative;
+    top: -6px;
+}
+.main-area-list .box-ul-two{
+    text-align: center;
+ }
+.main-area-list .box-ul-two>b,.main-area-list .box-ul-two>u{
+    display: block;
+    
+}
+.main-area-list .box-ul-two>b{
+    font-size: 16px;
+    margin: 6px 50px 0px 5px;
+    width:100%;
+}
+.main-area-list .box-ul-two>img{
+
+    margin-top: 20px;
+   
+}
+/*.main-area-list .box-ul-two>u{
+    font-size: 14px;
+    text-decoration: none;
+}*/
+.main-area-list .box-ul-three{
+    height: 45px;
+}
+
+.main-area-list .box-ul-three>span,.main-area-list .box-ul-four>span{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    background: #cce5fb;
+    text-align: center;
+    margin-top: 15px;
+}
+.main-area-list .box-ul-four{
+    color: #ff0000;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.main-area-list .box-ul-four>span{
+    background:#e1f0fc ;
+}
+.main-area-list .box-ul-five{
+    height: 70px;
+    font-size: 13px;
+    padding: 2px;
+}
+.main-area-list .routes-inf li{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+}
+.main-area-list .routes-inf b{
+    font-weight: normal;
+    
+}
+.main-area-list .routes-inf s{
+    text-decoration: none;
+    
+}
+.main-area-list .routes-inf span{
+    font-size: 12px;
+}
+.main-area-list .box-ul-six{
+    height: 50px;
+}
+.main-area-list .box-ul-six>a,.main-area-list-li a{
+    display: block;
+    height: 30px;
+    width: 105px;
+    background: #fe8624;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 48px;
+    margin-top: 15px;
+    color:white
+    
+}
+.main-area-list .box-ul-six>a:hover{
+    text-decoration: none;
+    background: #319aef;
+}
+.main-area-list .main-area-list-li{
+    background: url("../../images/commodity_price_page/logo-bg.png") no-repeat 0px 25px;
+}
+.main-area-list-box>p{
+    display: block;
+    width: 180px;
+    height: 100px;
+    margin-top: 210px;
+    margin-left: 13px;
+    font-size: 38px;
+    text-align: center;
+    color: #dcdcdb;
+}
+.main-area-list-box a{
+    background-color:#dcdcdb ;
+    margin: 20px 52px;
+    color: #bab9b9;
+}

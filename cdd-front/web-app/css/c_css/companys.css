@@ -1,0 +1,23 @@
+.companys_bannerBg0{width:100%;min-width:1200px;height:270px;background:url(/images/c_images/companys/bannerImage.png) no-repeat center center;float:left;}
+.companys_bannerBg0 .companys_bannerBg{height:270px;}
+.companys_bannerBg0 .txt{padding-top:24px;width:1200px;height:140px;line-height:140px;font-size:30px;text-align:center;color:#fff;
+float:left;}
+.companys_bannerBg0 .cbtn{width:180px;height:52px;border-radius:26px;line-height:52px;font-size:17px;text-align:center;color:#fff;background:#00a0e9;clear:both;margin:0 auto;cursor:pointer;}
+.companys_bannerBg0 .cbtn>a{display:block;color:#fff;}
+
+.companys_content{min-height:400px;}
+.companys_List{padding-top:60px;float:left;}
+.companys_List li{margin:0 32px 60px 32px;width:536px;height:200px;box-shadow:0 6px 12px #BBB;position:relative;float:left;}
+.companys_List .title{width:100%;height:40px;line-height:40px;text-indent:10px;font-size:18px;font-weight:bold;color:#fff;background:#00a0e9;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;float:left;}
+.companys_List .txtBg{padding:20px 0 0 32px;width:330px;height:150px;line-height:44px;color:#212121;float:left;}
+.companys_List .txt{width:330px;height:44px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;float:left;}
+.companys_List .rTxtBg{margin:43px 29px 0 0;width:56px;height:56px;border-radius:28px;background:#00a0e9;display:table;position:relative;float:right;}
+.companys_List .mdTxtBg{display:table-cell;vertical-align:middle;text-align:center;padding:2px;*position:absolute;*top:50%;*left:50%;}
+.companys_List .mdTxt{*position:relative;*top:-50%;*left:-50%;font-size:14px;color:#fff;line-height:24px;}
+
+.companys_List2 li{height:250px;}
+.companys_List2 .txtBg{height:200px;}
+.companys_List2 .txt{height:28px;line-height:28px;}
+.companys_List2 .rTxtBg{margin:67px 38px 0 0;}
+
+.companys_pageBg{padding-bottom:50px;width:1168px;float:left;}
