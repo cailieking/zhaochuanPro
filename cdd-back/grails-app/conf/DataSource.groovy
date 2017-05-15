@@ -15,17 +15,14 @@ def getDatabaseConfig() {
 	switch(Environment.current.name) {
 	case Environment.DEVELOPMENT.name:
 	case 'development':
-		//return [username: 'cdd_dev', password: 'cdd-dev', host: '120.25.103.111:3306', uri: 'chuanduoduo_dev']
-			return [username: 'cdd_admin', password: 'cddr00t', host: 'chuanddproduct.mysql.rds.aliyuncs.com:3306', uri: 'chuanduoduo']
-			//return [username: 'root', password: 'root', host: 'localhost:3306', uri: 'zhaochuan1123']
+			return [username: '', password: '', host: '', uri: '']
 	case Environment.TEST.name:
-	//return [username: 'root', password: 'root', host: 'localhost:3306', uri: 'zhaochuan']
 		
 	
 	case 'uat':
-		return [username: 'cdd_test', password: 'cddtest', host: 'chuanduoduo.mysql.rds.aliyuncs.com:3306', uri: 'chuanduoduo_test']
+		return [username: '', password: '', host: '', uri: '']
 	case Environment.PRODUCTION.name:
-		return [username: 'cdd_admin', password: 'cddr00t', host: 'rdsm7t7ws24l5djgte0g6.mysql.rds.aliyuncs.com:3306', uri: 'chuanduoduo']
+		return [username: '', password: ', host: '', uri: '']
 	}
 }
 
