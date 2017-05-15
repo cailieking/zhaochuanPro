@@ -15,11 +15,11 @@ def getDatabaseConfig() {
 	switch(Environment.current.name) {
 	case Environment.DEVELOPMENT.name:
 	case Environment.TEST.name:
-		return [username: 'root', password: '111111', host: 'localhost:3306']
+		return [username: '', password: '', host: '']
 	case 'uat':
-		return [username: 'demo', password: '123456', host: 'rdsqej2uuqej2uu.mysql.rds.aliyuncs.com:3306']
+		return [username: '', password: '', host: '']
 	case Environment.PRODUCTION.name:
-		return [username: 'root', password: '', host: '']
+		return [username: '', password: '', host: '']
 	}
 }
 
